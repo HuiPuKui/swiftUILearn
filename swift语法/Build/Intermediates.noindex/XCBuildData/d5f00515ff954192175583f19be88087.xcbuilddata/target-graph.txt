@@ -1,2 +1,0 @@
-Target dependency graph (1 target)
-Target 'Comments_Sources' in project 'Comments_Sources' (no dependencies)

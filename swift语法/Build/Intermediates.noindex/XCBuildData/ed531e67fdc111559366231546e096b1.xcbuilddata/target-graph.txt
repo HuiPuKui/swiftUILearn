@@ -1,2 +1,0 @@
-Target dependency graph (1 target)
-Target '可选变量_Sources' in project '可选变量_Sources' (no dependencies)
