@@ -5,7 +5,7 @@
   },
   "configuredTargets" : [
     {
-      "guid" : "PLAYGROUND-PRODUCT:初步讲解数组_Sources-PLAYGROUND-TARGET:/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swift语法/初步讲解数组.playground",
+      "guid" : "PLAYGROUND-PRODUCT:字典和Set_Sources-PLAYGROUND-TARGET:/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swift语法/字典和Set.playground",
       "parameters" : {
         "action" : "build",
         "activeArchitecture" : "arm64",
@@ -24,9 +24,9 @@
           "buildIntermediatesPath" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swift语法/Build/Intermediates.noindex",
           "buildProductsPath" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swift语法/Build/Products",
           "derivedDataPath" : "/Users/huipukui/Library/Developer/Xcode/DerivedData",
-          "indexDataStoreFolderPath" : "/Users/huipukui/Library/Developer/Xcode/DerivedData/初步讲解数组-djsdoxqgklgzcnfzaklgxskuffer/Index.noindex/DataStore",
+          "indexDataStoreFolderPath" : "/Users/huipukui/Library/Developer/Xcode/DerivedData/字典和Set-druhnbemyjvqjdeyfeuhglerflad/Index.noindex/DataStore",
           "indexEnableDataStore" : true,
-          "indexPCHPath" : "/Users/huipukui/Library/Developer/Xcode/DerivedData/初步讲解数组-djsdoxqgklgzcnfzaklgxskuffer/Index.noindex/PrecompiledHeaders",
+          "indexPCHPath" : "/Users/huipukui/Library/Developer/Xcode/DerivedData/字典和Set-druhnbemyjvqjdeyfeuhglerflad/Index.noindex/PrecompiledHeaders",
           "pchPath" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swift语法/Build/Intermediates.noindex/PrecompiledHeaders"
         },
         "configurationName" : "Debug",
@@ -37,10 +37,10 @@
               "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "17.4",
               "ASSETCATALOG_FILTER_FOR_THINNING_DEVICE_CONFIGURATION" : "iPad14,5-B",
               "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
-              "DSTROOT" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swift语法/Build/Intermediates.noindex/Playgrounds/初步讲解数组/ReleaseProducts",
+              "DSTROOT" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swift语法/Build/Intermediates.noindex/Playgrounds/字典和Set/ReleaseProducts",
               "ENABLE_PREVIEWS" : "YES",
-              "OBJROOT" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swift语法/Build/Intermediates.noindex/Playgrounds/初步讲解数组/Intermediates.noindex",
-              "SYMROOT" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swift语法/Build/Intermediates.noindex/Playgrounds/初步讲解数组/Products",
+              "OBJROOT" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swift语法/Build/Intermediates.noindex/Playgrounds/字典和Set/Intermediates.noindex",
+              "SYMROOT" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swift语法/Build/Intermediates.noindex/Playgrounds/字典和Set/Products",
               "TARGET_DEVICE_IDENTIFIER" : "A7E7D81F-5561-48C2-B024-4C05E7DD53AB",
               "TARGET_DEVICE_MODEL" : "iPad14,5",
               "TARGET_DEVICE_OS_VERSION" : "17.4",
@@ -51,7 +51,7 @@
       }
     }
   ],
-  "containerPath" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swift语法/初步讲解数组.playground",
+  "containerPath" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swift语法/字典和Set.playground",
   "continueBuildingAfterErrors" : true,
   "dependencyScope" : "workspace",
   "enableIndexBuildArena" : false,
@@ -74,9 +74,9 @@
       "buildIntermediatesPath" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swift语法/Build/Intermediates.noindex",
       "buildProductsPath" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swift语法/Build/Products",
       "derivedDataPath" : "/Users/huipukui/Library/Developer/Xcode/DerivedData",
-      "indexDataStoreFolderPath" : "/Users/huipukui/Library/Developer/Xcode/DerivedData/初步讲解数组-djsdoxqgklgzcnfzaklgxskuffer/Index.noindex/DataStore",
+      "indexDataStoreFolderPath" : "/Users/huipukui/Library/Developer/Xcode/DerivedData/字典和Set-druhnbemyjvqjdeyfeuhglerflad/Index.noindex/DataStore",
       "indexEnableDataStore" : true,
-      "indexPCHPath" : "/Users/huipukui/Library/Developer/Xcode/DerivedData/初步讲解数组-djsdoxqgklgzcnfzaklgxskuffer/Index.noindex/PrecompiledHeaders",
+      "indexPCHPath" : "/Users/huipukui/Library/Developer/Xcode/DerivedData/字典和Set-druhnbemyjvqjdeyfeuhglerflad/Index.noindex/PrecompiledHeaders",
       "pchPath" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swift语法/Build/Intermediates.noindex/PrecompiledHeaders"
     },
     "configurationName" : "Debug",
