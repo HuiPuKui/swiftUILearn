@@ -1,0 +1,20 @@
+{
+  "source": "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/CounterDemo/CounterDemo/Views/ContentView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "%lld"
+      },
+      {
+        "comment": "",
+        "key": "Button +"
+      },
+      {
+        "comment": "",
+        "key": "Button -"
+      }
+    ]
+  },
+  "version": 1
+}

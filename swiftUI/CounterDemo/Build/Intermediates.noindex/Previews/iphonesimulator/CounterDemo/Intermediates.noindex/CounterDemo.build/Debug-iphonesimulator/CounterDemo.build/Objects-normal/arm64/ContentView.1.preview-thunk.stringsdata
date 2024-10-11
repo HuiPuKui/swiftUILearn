@@ -1,0 +1,20 @@
+{
+  "source": "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/CounterDemo/Build/Intermediates.noindex/Previews/iphonesimulator/CounterDemo/Intermediates.noindex/CounterDemo.build/Debug-iphonesimulator/CounterDemo.build/Objects-normal/arm64/ContentView.1.preview-thunk.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "%lld"
+      },
+      {
+        "comment": "",
+        "key": "Button +"
+      },
+      {
+        "comment": "",
+        "key": "Button -"
+      }
+    ]
+  },
+  "version": 1
+}
