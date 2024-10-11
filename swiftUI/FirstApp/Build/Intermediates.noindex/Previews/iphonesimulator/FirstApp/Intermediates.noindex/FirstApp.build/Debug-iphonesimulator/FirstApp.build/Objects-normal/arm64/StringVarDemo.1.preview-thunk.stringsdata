@@ -1,0 +1,20 @@
+{
+  "source": "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/FirstApp/Build/Intermediates.noindex/Previews/iphonesimulator/FirstApp/Intermediates.noindex/FirstApp.build/Debug-iphonesimulator/FirstApp.build/Objects-normal/arm64/StringVarDemo.1.preview-thunk.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "%lld"
+      },
+      {
+        "comment": "",
+        "key": "Button +"
+      },
+      {
+        "comment": "",
+        "key": "Button -"
+      }
+    ]
+  },
+  "version": 1
+}
