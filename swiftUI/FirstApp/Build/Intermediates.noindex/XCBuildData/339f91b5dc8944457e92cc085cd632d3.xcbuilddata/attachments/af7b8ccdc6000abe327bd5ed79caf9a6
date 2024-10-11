@@ -15,6 +15,16 @@
     "swift-dependencies" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/FirstApp/Build/Intermediates.noindex/Previews/iphonesimulator/FirstApp/Intermediates.noindex/FirstApp.build/Debug-iphonesimulator/FirstApp.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
     "swiftmodule" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/FirstApp/Build/Intermediates.noindex/Previews/iphonesimulator/FirstApp/Intermediates.noindex/FirstApp.build/Debug-iphonesimulator/FirstApp.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
   },
+  "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/FirstApp/FirstApp/ButtonDemo.swift" : {
+    "const-values" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/FirstApp/Build/Intermediates.noindex/Previews/iphonesimulator/FirstApp/Intermediates.noindex/FirstApp.build/Debug-iphonesimulator/FirstApp.build/Objects-normal/arm64/ButtonDemo.swiftconstvalues",
+    "dependencies" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/FirstApp/Build/Intermediates.noindex/Previews/iphonesimulator/FirstApp/Intermediates.noindex/FirstApp.build/Debug-iphonesimulator/FirstApp.build/Objects-normal/arm64/ButtonDemo.d",
+    "diagnostics" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/FirstApp/Build/Intermediates.noindex/Previews/iphonesimulator/FirstApp/Intermediates.noindex/FirstApp.build/Debug-iphonesimulator/FirstApp.build/Objects-normal/arm64/ButtonDemo.dia",
+    "index-unit-output-path" : "/FirstApp.build/Debug-iphonesimulator/FirstApp.build/Objects-normal/arm64/ButtonDemo.o",
+    "llvm-bc" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/FirstApp/Build/Intermediates.noindex/Previews/iphonesimulator/FirstApp/Intermediates.noindex/FirstApp.build/Debug-iphonesimulator/FirstApp.build/Objects-normal/arm64/ButtonDemo.bc",
+    "object" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/FirstApp/Build/Intermediates.noindex/Previews/iphonesimulator/FirstApp/Intermediates.noindex/FirstApp.build/Debug-iphonesimulator/FirstApp.build/Objects-normal/arm64/ButtonDemo.o",
+    "swift-dependencies" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/FirstApp/Build/Intermediates.noindex/Previews/iphonesimulator/FirstApp/Intermediates.noindex/FirstApp.build/Debug-iphonesimulator/FirstApp.build/Objects-normal/arm64/ButtonDemo.swiftdeps",
+    "swiftmodule" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/FirstApp/Build/Intermediates.noindex/Previews/iphonesimulator/FirstApp/Intermediates.noindex/FirstApp.build/Debug-iphonesimulator/FirstApp.build/Objects-normal/arm64/ButtonDemo~partial.swiftmodule"
+  },
   "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/FirstApp/FirstApp/ContentView.swift" : {
     "const-values" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/FirstApp/Build/Intermediates.noindex/Previews/iphonesimulator/FirstApp/Intermediates.noindex/FirstApp.build/Debug-iphonesimulator/FirstApp.build/Objects-normal/arm64/ContentView.swiftconstvalues",
     "dependencies" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/FirstApp/Build/Intermediates.noindex/Previews/iphonesimulator/FirstApp/Intermediates.noindex/FirstApp.build/Debug-iphonesimulator/FirstApp.build/Objects-normal/arm64/ContentView.d",
@@ -34,6 +44,16 @@
     "object" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/FirstApp/Build/Intermediates.noindex/Previews/iphonesimulator/FirstApp/Intermediates.noindex/FirstApp.build/Debug-iphonesimulator/FirstApp.build/Objects-normal/arm64/FirstAppApp.o",
     "swift-dependencies" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/FirstApp/Build/Intermediates.noindex/Previews/iphonesimulator/FirstApp/Intermediates.noindex/FirstApp.build/Debug-iphonesimulator/FirstApp.build/Objects-normal/arm64/FirstAppApp.swiftdeps",
     "swiftmodule" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/FirstApp/Build/Intermediates.noindex/Previews/iphonesimulator/FirstApp/Intermediates.noindex/FirstApp.build/Debug-iphonesimulator/FirstApp.build/Objects-normal/arm64/FirstAppApp~partial.swiftmodule"
+  },
+  "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/FirstApp/FirstApp/StateDemo.swift" : {
+    "const-values" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/FirstApp/Build/Intermediates.noindex/Previews/iphonesimulator/FirstApp/Intermediates.noindex/FirstApp.build/Debug-iphonesimulator/FirstApp.build/Objects-normal/arm64/StateDemo.swiftconstvalues",
+    "dependencies" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/FirstApp/Build/Intermediates.noindex/Previews/iphonesimulator/FirstApp/Intermediates.noindex/FirstApp.build/Debug-iphonesimulator/FirstApp.build/Objects-normal/arm64/StateDemo.d",
+    "diagnostics" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/FirstApp/Build/Intermediates.noindex/Previews/iphonesimulator/FirstApp/Intermediates.noindex/FirstApp.build/Debug-iphonesimulator/FirstApp.build/Objects-normal/arm64/StateDemo.dia",
+    "index-unit-output-path" : "/FirstApp.build/Debug-iphonesimulator/FirstApp.build/Objects-normal/arm64/StateDemo.o",
+    "llvm-bc" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/FirstApp/Build/Intermediates.noindex/Previews/iphonesimulator/FirstApp/Intermediates.noindex/FirstApp.build/Debug-iphonesimulator/FirstApp.build/Objects-normal/arm64/StateDemo.bc",
+    "object" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/FirstApp/Build/Intermediates.noindex/Previews/iphonesimulator/FirstApp/Intermediates.noindex/FirstApp.build/Debug-iphonesimulator/FirstApp.build/Objects-normal/arm64/StateDemo.o",
+    "swift-dependencies" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/FirstApp/Build/Intermediates.noindex/Previews/iphonesimulator/FirstApp/Intermediates.noindex/FirstApp.build/Debug-iphonesimulator/FirstApp.build/Objects-normal/arm64/StateDemo.swiftdeps",
+    "swiftmodule" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/FirstApp/Build/Intermediates.noindex/Previews/iphonesimulator/FirstApp/Intermediates.noindex/FirstApp.build/Debug-iphonesimulator/FirstApp.build/Objects-normal/arm64/StateDemo~partial.swiftmodule"
   },
   "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/FirstApp/FirstApp/ViewModifierDemo.swift" : {
     "const-values" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/FirstApp/Build/Intermediates.noindex/Previews/iphonesimulator/FirstApp/Intermediates.noindex/FirstApp.build/Debug-iphonesimulator/FirstApp.build/Objects-normal/arm64/ViewModifierDemo.swiftconstvalues",

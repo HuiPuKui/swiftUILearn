@@ -4,11 +4,11 @@
     "Localizable": [
       {
         "comment": "",
-        "key": "Hello World"
+        "key": "Tap Me"
       },
       {
         "comment": "",
-        "key": "Tap Me"
+        "key": "Button"
       }
     ]
   },

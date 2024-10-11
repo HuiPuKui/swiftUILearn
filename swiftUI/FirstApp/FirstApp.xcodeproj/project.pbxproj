@@ -13,6 +13,7 @@
 		3220E72E2CB98DB000841035 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3220E72D2CB98DB000841035 /* Preview Assets.xcassets */; };
 		3220E7352CB9914D00841035 /* ViewModifierDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3220E7342CB9914D00841035 /* ViewModifierDemo.swift */; };
 		3220E7372CB9963F00841035 /* ButtonDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3220E7362CB9963F00841035 /* ButtonDemo.swift */; };
+		3220E7392CB998BF00841035 /* StateDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3220E7382CB998BF00841035 /* StateDemo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		3220E72D2CB98DB000841035 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3220E7342CB9914D00841035 /* ViewModifierDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifierDemo.swift; sourceTree = "<group>"; };
 		3220E7362CB9963F00841035 /* ButtonDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonDemo.swift; sourceTree = "<group>"; };
+		3220E7382CB998BF00841035 /* StateDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateDemo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				3220E7282CB98DAF00841035 /* ContentView.swift */,
 				3220E7342CB9914D00841035 /* ViewModifierDemo.swift */,
 				3220E7362CB9963F00841035 /* ButtonDemo.swift */,
+				3220E7382CB998BF00841035 /* StateDemo.swift */,
 				3220E72A2CB98DB000841035 /* Assets.xcassets */,
 				3220E72C2CB98DB000841035 /* Preview Content */,
 			);
@@ -146,6 +149,7 @@
 				3220E7372CB9963F00841035 /* ButtonDemo.swift in Sources */,
 				3220E7292CB98DAF00841035 /* ContentView.swift in Sources */,
 				3220E7272CB98DAF00841035 /* FirstAppApp.swift in Sources */,
+				3220E7392CB998BF00841035 /* StateDemo.swift in Sources */,
 				3220E7352CB9914D00841035 /* ViewModifierDemo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
