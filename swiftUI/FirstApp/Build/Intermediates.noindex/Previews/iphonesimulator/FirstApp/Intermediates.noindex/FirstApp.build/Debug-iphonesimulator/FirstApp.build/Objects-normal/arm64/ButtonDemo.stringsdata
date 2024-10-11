@@ -1,10 +1,10 @@
 {
-  "source": "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/FirstApp/FirstApp/ViewModifierDemo.swift",
+  "source": "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/FirstApp/FirstApp/ButtonDemo.swift",
   "tables": {
     "Localizable": [
       {
         "comment": "",
-        "key": "Hello, World!"
+        "key": "Hello World"
       },
       {
         "comment": "",
