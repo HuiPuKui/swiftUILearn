@@ -1,0 +1,16 @@
+{
+  "source": "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/FirstApp/FirstApp/ViewModifierDemo.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Hello, World!"
+      },
+      {
+        "comment": "",
+        "key": "Tap Me"
+      }
+    ]
+  },
+  "version": 1
+}
