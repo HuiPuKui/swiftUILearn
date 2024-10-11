@@ -14,6 +14,7 @@
 		3220E7352CB9914D00841035 /* ViewModifierDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3220E7342CB9914D00841035 /* ViewModifierDemo.swift */; };
 		3220E7372CB9963F00841035 /* ButtonDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3220E7362CB9963F00841035 /* ButtonDemo.swift */; };
 		3220E7392CB998BF00841035 /* StateDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3220E7382CB998BF00841035 /* StateDemo.swift */; };
+		3220E73B2CB99C7800841035 /* BindingDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3220E73A2CB99C7800841035 /* BindingDemo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		3220E7342CB9914D00841035 /* ViewModifierDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifierDemo.swift; sourceTree = "<group>"; };
 		3220E7362CB9963F00841035 /* ButtonDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonDemo.swift; sourceTree = "<group>"; };
 		3220E7382CB998BF00841035 /* StateDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateDemo.swift; sourceTree = "<group>"; };
+		3220E73A2CB99C7800841035 /* BindingDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingDemo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				3220E7342CB9914D00841035 /* ViewModifierDemo.swift */,
 				3220E7362CB9963F00841035 /* ButtonDemo.swift */,
 				3220E7382CB998BF00841035 /* StateDemo.swift */,
+				3220E73A2CB99C7800841035 /* BindingDemo.swift */,
 				3220E72A2CB98DB000841035 /* Assets.xcassets */,
 				3220E72C2CB98DB000841035 /* Preview Content */,
 			);
@@ -148,6 +151,7 @@
 			files = (
 				3220E7372CB9963F00841035 /* ButtonDemo.swift in Sources */,
 				3220E7292CB98DAF00841035 /* ContentView.swift in Sources */,
+				3220E73B2CB99C7800841035 /* BindingDemo.swift in Sources */,
 				3220E7272CB98DAF00841035 /* FirstAppApp.swift in Sources */,
 				3220E7392CB998BF00841035 /* StateDemo.swift in Sources */,
 				3220E7352CB9914D00841035 /* ViewModifierDemo.swift in Sources */,
