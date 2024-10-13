@@ -1,0 +1,20 @@
+{
+  "source": "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/TodoList/TodoList/Views/AddView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Add an Item"
+      },
+      {
+        "comment": "",
+        "key": "Type here..."
+      },
+      {
+        "comment": "",
+        "key": "SAVE"
+      }
+    ]
+  },
+  "version": 1
+}

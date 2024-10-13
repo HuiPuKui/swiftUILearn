@@ -1,0 +1,78 @@
+{
+  "" : {
+    "diagnostics" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/TodoList/Build/Intermediates.noindex/TodoList.build/Debug-iphonesimulator/TodoList.build/Objects-normal/arm64/TodoList-master.dia",
+    "emit-module-dependencies" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/TodoList/Build/Intermediates.noindex/TodoList.build/Debug-iphonesimulator/TodoList.build/Objects-normal/arm64/TodoList-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/TodoList/Build/Intermediates.noindex/TodoList.build/Debug-iphonesimulator/TodoList.build/Objects-normal/arm64/TodoList-master-emit-module.dia",
+    "swift-dependencies" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/TodoList/Build/Intermediates.noindex/TodoList.build/Debug-iphonesimulator/TodoList.build/Objects-normal/arm64/TodoList-master.swiftdeps"
+  },
+  "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/TodoList/Build/Intermediates.noindex/TodoList.build/Debug-iphonesimulator/TodoList.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/TodoList/Build/Intermediates.noindex/TodoList.build/Debug-iphonesimulator/TodoList.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/TodoList/Build/Intermediates.noindex/TodoList.build/Debug-iphonesimulator/TodoList.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/TodoList/Build/Intermediates.noindex/TodoList.build/Debug-iphonesimulator/TodoList.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/TodoList.build/Debug-iphonesimulator/TodoList.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/TodoList/Build/Intermediates.noindex/TodoList.build/Debug-iphonesimulator/TodoList.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/TodoList/Build/Intermediates.noindex/TodoList.build/Debug-iphonesimulator/TodoList.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/TodoList/Build/Intermediates.noindex/TodoList.build/Debug-iphonesimulator/TodoList.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/TodoList/Build/Intermediates.noindex/TodoList.build/Debug-iphonesimulator/TodoList.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
+  },
+  "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/TodoList/TodoList/Models/TodoItem.swift" : {
+    "const-values" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/TodoList/Build/Intermediates.noindex/TodoList.build/Debug-iphonesimulator/TodoList.build/Objects-normal/arm64/TodoItem.swiftconstvalues",
+    "dependencies" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/TodoList/Build/Intermediates.noindex/TodoList.build/Debug-iphonesimulator/TodoList.build/Objects-normal/arm64/TodoItem.d",
+    "diagnostics" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/TodoList/Build/Intermediates.noindex/TodoList.build/Debug-iphonesimulator/TodoList.build/Objects-normal/arm64/TodoItem.dia",
+    "index-unit-output-path" : "/TodoList.build/Debug-iphonesimulator/TodoList.build/Objects-normal/arm64/TodoItem.o",
+    "llvm-bc" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/TodoList/Build/Intermediates.noindex/TodoList.build/Debug-iphonesimulator/TodoList.build/Objects-normal/arm64/TodoItem.bc",
+    "object" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/TodoList/Build/Intermediates.noindex/TodoList.build/Debug-iphonesimulator/TodoList.build/Objects-normal/arm64/TodoItem.o",
+    "swift-dependencies" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/TodoList/Build/Intermediates.noindex/TodoList.build/Debug-iphonesimulator/TodoList.build/Objects-normal/arm64/TodoItem.swiftdeps",
+    "swiftmodule" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/TodoList/Build/Intermediates.noindex/TodoList.build/Debug-iphonesimulator/TodoList.build/Objects-normal/arm64/TodoItem~partial.swiftmodule"
+  },
+  "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/TodoList/TodoList/TodoListApp.swift" : {
+    "const-values" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/TodoList/Build/Intermediates.noindex/TodoList.build/Debug-iphonesimulator/TodoList.build/Objects-normal/arm64/TodoListApp.swiftconstvalues",
+    "dependencies" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/TodoList/Build/Intermediates.noindex/TodoList.build/Debug-iphonesimulator/TodoList.build/Objects-normal/arm64/TodoListApp.d",
+    "diagnostics" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/TodoList/Build/Intermediates.noindex/TodoList.build/Debug-iphonesimulator/TodoList.build/Objects-normal/arm64/TodoListApp.dia",
+    "index-unit-output-path" : "/TodoList.build/Debug-iphonesimulator/TodoList.build/Objects-normal/arm64/TodoListApp.o",
+    "llvm-bc" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/TodoList/Build/Intermediates.noindex/TodoList.build/Debug-iphonesimulator/TodoList.build/Objects-normal/arm64/TodoListApp.bc",
+    "object" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/TodoList/Build/Intermediates.noindex/TodoList.build/Debug-iphonesimulator/TodoList.build/Objects-normal/arm64/TodoListApp.o",
+    "swift-dependencies" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/TodoList/Build/Intermediates.noindex/TodoList.build/Debug-iphonesimulator/TodoList.build/Objects-normal/arm64/TodoListApp.swiftdeps",
+    "swiftmodule" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/TodoList/Build/Intermediates.noindex/TodoList.build/Debug-iphonesimulator/TodoList.build/Objects-normal/arm64/TodoListApp~partial.swiftmodule"
+  },
+  "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/TodoList/TodoList/ViewModels/TodoListViewModel.swift" : {
+    "const-values" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/TodoList/Build/Intermediates.noindex/TodoList.build/Debug-iphonesimulator/TodoList.build/Objects-normal/arm64/TodoListViewModel.swiftconstvalues",
+    "dependencies" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/TodoList/Build/Intermediates.noindex/TodoList.build/Debug-iphonesimulator/TodoList.build/Objects-normal/arm64/TodoListViewModel.d",
+    "diagnostics" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/TodoList/Build/Intermediates.noindex/TodoList.build/Debug-iphonesimulator/TodoList.build/Objects-normal/arm64/TodoListViewModel.dia",
+    "index-unit-output-path" : "/TodoList.build/Debug-iphonesimulator/TodoList.build/Objects-normal/arm64/TodoListViewModel.o",
+    "llvm-bc" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/TodoList/Build/Intermediates.noindex/TodoList.build/Debug-iphonesimulator/TodoList.build/Objects-normal/arm64/TodoListViewModel.bc",
+    "object" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/TodoList/Build/Intermediates.noindex/TodoList.build/Debug-iphonesimulator/TodoList.build/Objects-normal/arm64/TodoListViewModel.o",
+    "swift-dependencies" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/TodoList/Build/Intermediates.noindex/TodoList.build/Debug-iphonesimulator/TodoList.build/Objects-normal/arm64/TodoListViewModel.swiftdeps",
+    "swiftmodule" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/TodoList/Build/Intermediates.noindex/TodoList.build/Debug-iphonesimulator/TodoList.build/Objects-normal/arm64/TodoListViewModel~partial.swiftmodule"
+  },
+  "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/TodoList/TodoList/Views/AddView.swift" : {
+    "const-values" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/TodoList/Build/Intermediates.noindex/TodoList.build/Debug-iphonesimulator/TodoList.build/Objects-normal/arm64/AddView.swiftconstvalues",
+    "dependencies" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/TodoList/Build/Intermediates.noindex/TodoList.build/Debug-iphonesimulator/TodoList.build/Objects-normal/arm64/AddView.d",
+    "diagnostics" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/TodoList/Build/Intermediates.noindex/TodoList.build/Debug-iphonesimulator/TodoList.build/Objects-normal/arm64/AddView.dia",
+    "index-unit-output-path" : "/TodoList.build/Debug-iphonesimulator/TodoList.build/Objects-normal/arm64/AddView.o",
+    "llvm-bc" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/TodoList/Build/Intermediates.noindex/TodoList.build/Debug-iphonesimulator/TodoList.build/Objects-normal/arm64/AddView.bc",
+    "object" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/TodoList/Build/Intermediates.noindex/TodoList.build/Debug-iphonesimulator/TodoList.build/Objects-normal/arm64/AddView.o",
+    "swift-dependencies" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/TodoList/Build/Intermediates.noindex/TodoList.build/Debug-iphonesimulator/TodoList.build/Objects-normal/arm64/AddView.swiftdeps",
+    "swiftmodule" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/TodoList/Build/Intermediates.noindex/TodoList.build/Debug-iphonesimulator/TodoList.build/Objects-normal/arm64/AddView~partial.swiftmodule"
+  },
+  "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/TodoList/TodoList/Views/ListView.swift" : {
+    "const-values" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/TodoList/Build/Intermediates.noindex/TodoList.build/Debug-iphonesimulator/TodoList.build/Objects-normal/arm64/ListView.swiftconstvalues",
+    "dependencies" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/TodoList/Build/Intermediates.noindex/TodoList.build/Debug-iphonesimulator/TodoList.build/Objects-normal/arm64/ListView.d",
+    "diagnostics" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/TodoList/Build/Intermediates.noindex/TodoList.build/Debug-iphonesimulator/TodoList.build/Objects-normal/arm64/ListView.dia",
+    "index-unit-output-path" : "/TodoList.build/Debug-iphonesimulator/TodoList.build/Objects-normal/arm64/ListView.o",
+    "llvm-bc" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/TodoList/Build/Intermediates.noindex/TodoList.build/Debug-iphonesimulator/TodoList.build/Objects-normal/arm64/ListView.bc",
+    "object" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/TodoList/Build/Intermediates.noindex/TodoList.build/Debug-iphonesimulator/TodoList.build/Objects-normal/arm64/ListView.o",
+    "swift-dependencies" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/TodoList/Build/Intermediates.noindex/TodoList.build/Debug-iphonesimulator/TodoList.build/Objects-normal/arm64/ListView.swiftdeps",
+    "swiftmodule" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/TodoList/Build/Intermediates.noindex/TodoList.build/Debug-iphonesimulator/TodoList.build/Objects-normal/arm64/ListView~partial.swiftmodule"
+  },
+  "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/TodoList/TodoList/Views/TodoListRow.swift" : {
+    "const-values" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/TodoList/Build/Intermediates.noindex/TodoList.build/Debug-iphonesimulator/TodoList.build/Objects-normal/arm64/TodoListRow.swiftconstvalues",
+    "dependencies" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/TodoList/Build/Intermediates.noindex/TodoList.build/Debug-iphonesimulator/TodoList.build/Objects-normal/arm64/TodoListRow.d",
+    "diagnostics" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/TodoList/Build/Intermediates.noindex/TodoList.build/Debug-iphonesimulator/TodoList.build/Objects-normal/arm64/TodoListRow.dia",
+    "index-unit-output-path" : "/TodoList.build/Debug-iphonesimulator/TodoList.build/Objects-normal/arm64/TodoListRow.o",
+    "llvm-bc" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/TodoList/Build/Intermediates.noindex/TodoList.build/Debug-iphonesimulator/TodoList.build/Objects-normal/arm64/TodoListRow.bc",
+    "object" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/TodoList/Build/Intermediates.noindex/TodoList.build/Debug-iphonesimulator/TodoList.build/Objects-normal/arm64/TodoListRow.o",
+    "swift-dependencies" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/TodoList/Build/Intermediates.noindex/TodoList.build/Debug-iphonesimulator/TodoList.build/Objects-normal/arm64/TodoListRow.swiftdeps",
+    "swiftmodule" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/TodoList/Build/Intermediates.noindex/TodoList.build/Debug-iphonesimulator/TodoList.build/Objects-normal/arm64/TodoListRow~partial.swiftmodule"
+  }
+}

@@ -1,0 +1,2 @@
+Target dependency graph (1 target)
+Target 'NavigationStackDemo' in project 'NavigationStackDemo' (no dependencies)
