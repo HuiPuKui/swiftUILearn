@@ -14,6 +14,7 @@ struct AddView: View {
     @State var text: String = ""
     @State var showAlert: Bool = false
     @State var alertTitle: String = ""
+    
     var body: some View {
         ScrollView {
             VStack {
