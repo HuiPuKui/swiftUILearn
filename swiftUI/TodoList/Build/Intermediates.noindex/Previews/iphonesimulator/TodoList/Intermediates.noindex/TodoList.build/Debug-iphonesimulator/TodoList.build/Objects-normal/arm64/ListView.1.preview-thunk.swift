@@ -14,13 +14,16 @@ extension ListView {
         List {
             ForEach(viewModel.todoItems) { item in
                 TodoListRow(item: item)
+                    .onTapGesture {
+                        viewModel.updateItem(item: item)
+                    }
             }
             .onDelete(perform: viewModel.deleteItem)
             .onMove(perform: viewModel.moveItem)
         }
         .listStyle(.plain)
-        .navigationTitle(__designTimeString("#70523.[1].[1].property.[0].[0].modifier[1].arg[0].value", fallback: "Todo List App"))
-        .navigationBarItems(leading: EditButton(), trailing: NavigationLink(__designTimeString("#70523.[1].[1].property.[0].[0].modifier[2].arg[1].value.arg[0].value", fallback: "Add"), destination: AddView()))
+        .navigationTitle(__designTimeString("#11181.[1].[1].property.[0].[0].modifier[1].arg[0].value", fallback: "Todo List App"))
+        .navigationBarItems(leading: EditButton(), trailing: NavigationLink(__designTimeString("#11181.[1].[1].property.[0].[0].modifier[2].arg[1].value.arg[0].value", fallback: "Add"), destination: AddView()))
     
 #sourceLocation()
     }

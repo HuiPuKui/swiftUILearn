@@ -25,13 +25,13 @@ extension TodoListRow {
     @_dynamicReplacement(for: body) private var __preview__body: some View {
         #sourceLocation(file: "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/TodoList/TodoList/Views/TodoListRow.swift", line: 13)
         HStack {
-            Image(systemName: item.isCompleted ?  __designTimeString("#73516.[1].[1].property.[0].[0].arg[0].value.[0].arg[0].value.then", fallback: "checkmark.circle") : __designTimeString("#73516.[1].[1].property.[0].[0].arg[0].value.[0].arg[0].value.else", fallback: "circle"))
+            Image(systemName: item.isCompleted ?  __designTimeString("#11046.[1].[1].property.[0].[0].arg[0].value.[0].arg[0].value.then", fallback: "checkmark.circle") : __designTimeString("#11046.[1].[1].property.[0].[0].arg[0].value.[0].arg[0].value.else", fallback: "circle"))
                 .foregroundColor(item.isCompleted ? .green : .red)
             Text(item.title)
             Spacer()
         }
         .font(.title2)
-        .padding(.vertical, __designTimeInteger("#73516.[1].[1].property.[0].[0].modifier[1].arg[1].value", fallback: 8))
+        .padding(.vertical, __designTimeInteger("#11046.[1].[1].property.[0].[0].modifier[1].arg[1].value", fallback: 8))
     
 #sourceLocation()
     }
