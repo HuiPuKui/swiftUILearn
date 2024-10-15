@@ -11,19 +11,25 @@ import SwiftUI
 extension ListView {
     @_dynamicReplacement(for: body) private var __preview__body: some View {
         #sourceLocation(file: "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/TodoList/TodoList/Views/ListView.swift", line: 15)
-        List {
-            ForEach(viewModel.todoItems) { item in
-                TodoListRow(item: item)
-                    .onTapGesture {
-                        viewModel.updateItem(item: item)
+        ZStack {
+            if viewModel.todoItems.isEmpty {
+                NoItemsView()
+            } else {
+                List {
+                    ForEach(viewModel.todoItems) { item in
+                        TodoListRow(item: item)
+                            .onTapGesture {
+                                viewModel.updateItem(item: item)
+                            }
                     }
+                    .onDelete(perform: viewModel.deleteItem)
+                    .onMove(perform: viewModel.moveItem)
+                }
+                .listStyle(.plain)
             }
-            .onDelete(perform: viewModel.deleteItem)
-            .onMove(perform: viewModel.moveItem)
         }
-        .listStyle(.plain)
-        .navigationTitle(__designTimeString("#11181.[1].[1].property.[0].[0].modifier[1].arg[0].value", fallback: "Todo List App"))
-        .navigationBarItems(leading: EditButton(), trailing: NavigationLink(__designTimeString("#11181.[1].[1].property.[0].[0].modifier[2].arg[1].value.arg[0].value", fallback: "Add"), destination: AddView()))
+        .navigationTitle(__designTimeString("#11652.[1].[1].property.[0].[0].modifier[0].arg[0].value", fallback: "Todo List App"))
+        .navigationBarItems(leading: EditButton(), trailing: NavigationLink(__designTimeString("#11652.[1].[1].property.[0].[0].modifier[1].arg[1].value.arg[0].value", fallback: "Add"), destination: AddView()))
     
 #sourceLocation()
     }

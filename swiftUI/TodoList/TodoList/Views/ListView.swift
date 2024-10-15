@@ -12,17 +12,23 @@ struct ListView: View {
     @EnvironmentObject var viewModel: TodoListViewModel
     
     var body: some View {
-        List {
-            ForEach(viewModel.todoItems) { item in
-                TodoListRow(item: item)
-                    .onTapGesture {
-                        viewModel.updateItem(item: item)
+        ZStack {
+            if viewModel.todoItems.isEmpty {
+                NoItemsView()
+            } else {
+                List {
+                    ForEach(viewModel.todoItems) { item in
+                        TodoListRow(item: item)
+                            .onTapGesture {
+                                viewModel.updateItem(item: item)
+                            }
                     }
+                    .onDelete(perform: viewModel.deleteItem)
+                    .onMove(perform: viewModel.moveItem)
+                }
+                .listStyle(.plain)
             }
-            .onDelete(perform: viewModel.deleteItem)
-            .onMove(perform: viewModel.moveItem)
         }
-        .listStyle(.plain)
         .navigationTitle("Todo List App")
         .navigationBarItems(leading: EditButton(), trailing: NavigationLink("Add", destination: AddView()))
     }

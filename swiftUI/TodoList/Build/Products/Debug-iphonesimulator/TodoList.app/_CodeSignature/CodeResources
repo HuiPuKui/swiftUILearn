@@ -4,9 +4,25 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Assets.car</key>
+		<data>
+		UJLmiciuSfjZ58YYcrm8dwBOiTo=
+		</data>
 		<key>Info.plist</key>
 		<data>
-		SIzdS/uK5K5VQio5yw9PCBvvKg4=
+		13wCaGX4CgsVS6rdcMe5nQdaC/o=
+		</data>
+		<key>LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
+		<data>
+		uN5c8X1DzxupXHxmYFrAQeR6Smw=
+		</data>
+		<key>LaunchScreen.storyboardc/Info.plist</key>
+		<data>
+		n2t8gsDpfE6XkhG31p7IQJRxTxU=
+		</data>
+		<key>LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
+		<data>
+		ZVgM1+KwZcZnwhgaI0F7Bt1ba2c=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -14,7 +30,36 @@
 		</data>
 	</dict>
 	<key>files2</key>
-	<dict/>
+	<dict>
+		<key>Assets.car</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			fM38qmqjaj7DBKFg1Xrfr1HWehD9ivsx/5bfxdmxDfo=
+			</data>
+		</dict>
+		<key>LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			VTu4gfWS28JkUPZCm46I8R8grW0nRh1waYbsvOYMHnU=
+			</data>
+		</dict>
+		<key>LaunchScreen.storyboardc/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			HyVdXMU7Ux4/KalAao30mpWOK/lEPT4gvYN09wf31cg=
+			</data>
+		</dict>
+		<key>LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			VPNjf2cf66XxnoLsT0p/tEi7PPwPsYDwiapXH8jwU+I=
+			</data>
+		</dict>
+	</dict>
 	<key>rules</key>
 	<dict>
 		<key>^.*</key>

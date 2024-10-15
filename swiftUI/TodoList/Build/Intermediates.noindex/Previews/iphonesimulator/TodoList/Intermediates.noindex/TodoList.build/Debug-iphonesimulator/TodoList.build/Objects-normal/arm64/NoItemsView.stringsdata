@@ -1,0 +1,20 @@
+{
+  "source": "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/TodoList/TodoList/Views/NoItemsView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "No Items"
+      },
+      {
+        "comment": "",
+        "key": "Please add items"
+      },
+      {
+        "comment": "",
+        "key": "Add Here"
+      }
+    ]
+  },
+  "version": 1
+}
