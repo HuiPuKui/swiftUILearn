@@ -1,0 +1,16 @@
+{
+  "source": "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/TabViewDemo/TabViewDemo/ContentView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Explore"
+      },
+      {
+        "comment": "",
+        "key": "Person"
+      }
+    ]
+  },
+  "version": 1
+}
