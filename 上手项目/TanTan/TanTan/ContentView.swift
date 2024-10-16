@@ -9,11 +9,11 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State var selectedTab: TabItem = .home
+    @StateObject var appState = AppState()
     
     var body: some View {
         VStack {
-            switch selectedTab {
+            switch appState.selectedTab {
             case .home:
                 Text("Home")
             case .live:
@@ -23,30 +23,33 @@ struct ContentView: View {
             case .profile:
                 Text("Profile")
             }
-            Spacer()
             
-            HStack {
-                createTabItem(tab: .home, title: "Home")
-                createTabItem(tab: .live, title: "Live")
-                createTabItem(tab: .message, title: "Message")
-                createTabItem(tab: .profile, title: "Profile")
+            if !appState.isFullScreen {
+                Spacer()
+                HStack {
+                    createTabItem(tab: .home, title: "Home")
+                    createTabItem(tab: .live, title: "Live")
+                    createTabItem(tab: .message, title: "Message")
+                    createTabItem(tab: .profile, title: "Profile")
+                }
             }
+            
         }
     }
     
     func createTabItem(tab: TabItem, title: String) -> some View {
         Button {
-            selectedTab = tab
+            appState.selectedTab = tab
         } label: {
             VStack {
                 Image(systemName: tab.rawValue)
                     .font(.system(size: 24, weight: .bold))
-                    .foregroundColor(selectedTab == tab ? .accentColor : .gray.opacity(0.5))
+                    .foregroundColor(appState.selectedTab == tab ? .accentColor : .gray.opacity(0.5))
                     .frame(maxWidth: .infinity)
                 
                 Text(title)
                     .font(.system(size: 10))
-                    .foregroundColor(selectedTab == tab ? .accentColor : .gray.opacity(0.5))
+                    .foregroundColor(appState.selectedTab == tab ? .accentColor : .gray.opacity(0.5))
             }
         }
     }

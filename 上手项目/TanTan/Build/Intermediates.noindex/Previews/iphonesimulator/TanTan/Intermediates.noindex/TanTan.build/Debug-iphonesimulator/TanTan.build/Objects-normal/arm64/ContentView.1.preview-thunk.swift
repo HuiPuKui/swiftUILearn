@@ -10,19 +10,19 @@ import SwiftUI
 
 extension ContentView {
     @_dynamicReplacement(for: createTabItem(tab:title:)) private func __preview__createTabItem(tab: TabItem, title: String) -> some View {
-        #sourceLocation(file: "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/TanTan/ContentView.swift", line: 38)
+        #sourceLocation(file: "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/TanTan/ContentView.swift", line: 41)
         Button {
-            selectedTab = tab
+            appState.selectedTab = tab
         } label: {
             VStack {
                 Image(systemName: tab.rawValue)
                     .font(.system(size: __designTimeInteger("#29294.[1].[2].[0].arg[1].value.[0].arg[0].value.[0].modifier[0].arg[0].value.arg[0].value", fallback: 24), weight: .bold))
-                    .foregroundColor(selectedTab == tab ? .accentColor : .gray.opacity(__designTimeFloat("#29294.[1].[2].[0].arg[1].value.[0].arg[0].value.[0].modifier[1].arg[0].value.else.modifier[0].arg[0].value", fallback: 0.5)))
+                    .foregroundColor(appState.selectedTab == tab ? .accentColor : .gray.opacity(__designTimeFloat("#29294.[1].[2].[0].arg[1].value.[0].arg[0].value.[0].modifier[1].arg[0].value.else.modifier[0].arg[0].value", fallback: 0.5)))
                     .frame(maxWidth: .infinity)
                 
                 Text(title)
                     .font(.system(size: __designTimeInteger("#29294.[1].[2].[0].arg[1].value.[0].arg[0].value.[1].modifier[0].arg[0].value.arg[0].value", fallback: 10)))
-                    .foregroundColor(selectedTab == tab ? .accentColor : .gray.opacity(__designTimeFloat("#29294.[1].[2].[0].arg[1].value.[0].arg[0].value.[1].modifier[1].arg[0].value.else.modifier[0].arg[0].value", fallback: 0.5)))
+                    .foregroundColor(appState.selectedTab == tab ? .accentColor : .gray.opacity(__designTimeFloat("#29294.[1].[2].[0].arg[1].value.[0].arg[0].value.[1].modifier[1].arg[0].value.else.modifier[0].arg[0].value", fallback: 0.5)))
             }
         }
     
@@ -34,7 +34,7 @@ extension ContentView {
     @_dynamicReplacement(for: body) private var __preview__body: some View {
         #sourceLocation(file: "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/TanTan/ContentView.swift", line: 15)
         VStack {
-            switch selectedTab {
+            switch appState.selectedTab {
             case .home:
                 Text(__designTimeString("#29294.[1].[1].property.[0].[0].arg[0].value.[0].[0].[0].arg[0].value", fallback: "Home"))
             case .live:
@@ -44,14 +44,17 @@ extension ContentView {
             case .profile:
                 Text(__designTimeString("#29294.[1].[1].property.[0].[0].arg[0].value.[0].[3].[0].arg[0].value", fallback: "Profile"))
             }
-            Spacer()
             
-            HStack {
-                createTabItem(tab: .home, title: __designTimeString("#29294.[1].[1].property.[0].[0].arg[0].value.[2].arg[0].value.[0].arg[1].value", fallback: "Home"))
-                createTabItem(tab: .live, title: __designTimeString("#29294.[1].[1].property.[0].[0].arg[0].value.[2].arg[0].value.[1].arg[1].value", fallback: "Live"))
-                createTabItem(tab: .message, title: __designTimeString("#29294.[1].[1].property.[0].[0].arg[0].value.[2].arg[0].value.[2].arg[1].value", fallback: "Message"))
-                createTabItem(tab: .profile, title: __designTimeString("#29294.[1].[1].property.[0].[0].arg[0].value.[2].arg[0].value.[3].arg[1].value", fallback: "Profile"))
+            if !appState.isFullScreen {
+                Spacer()
+                HStack {
+                    createTabItem(tab: .home, title: __designTimeString("#29294.[1].[1].property.[0].[0].arg[0].value.[1].[0].[1].arg[0].value.[0].arg[1].value", fallback: "Home"))
+                    createTabItem(tab: .live, title: __designTimeString("#29294.[1].[1].property.[0].[0].arg[0].value.[1].[0].[1].arg[0].value.[1].arg[1].value", fallback: "Live"))
+                    createTabItem(tab: .message, title: __designTimeString("#29294.[1].[1].property.[0].[0].arg[0].value.[1].[0].[1].arg[0].value.[2].arg[1].value", fallback: "Message"))
+                    createTabItem(tab: .profile, title: __designTimeString("#29294.[1].[1].property.[0].[0].arg[0].value.[1].[0].[1].arg[0].value.[3].arg[1].value", fallback: "Profile"))
+                }
             }
+            
         }
     
 #sourceLocation()
