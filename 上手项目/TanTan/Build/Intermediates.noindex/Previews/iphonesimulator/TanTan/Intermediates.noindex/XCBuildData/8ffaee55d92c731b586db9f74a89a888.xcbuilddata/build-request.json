@@ -1,0 +1,67 @@
+{
+  "buildCommand" : {
+    "command" : "preview",
+    "style" : "dynamicReplacement"
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "05fa25b35740366df933af2079d6b3d49f8e6fb1d285c0035049c2d0da9ec604"
+    }
+  ],
+  "containerPath" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/TanTan.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator17.4",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/Build/Products",
+      "derivedDataPath" : "/Users/huipukui/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/huipukui/Library/Developer/Xcode/DerivedData/TanTan-dbhzwbqdfnoyuufojhnuupfyxanu/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/huipukui/Library/Developer/Xcode/DerivedData/TanTan-dbhzwbqdfnoyuufojhnuupfyxanu/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ASSETCATALOG_FILTER_FOR_DEVICE_MODEL" : "iPhone16,1",
+          "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "17.4",
+          "ASSETCATALOG_FILTER_FOR_THINNING_DEVICE_CONFIGURATION" : "iPhone16,1",
+          "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
+          "DSTROOT" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/Build/Intermediates.noindex/Previews/iphonesimulator/TanTan/ReleaseProducts",
+          "ENABLE_PREVIEWS" : "YES",
+          "ENABLE_XOJIT_PREVIEWS" : "NO",
+          "OBJROOT" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/Build/Intermediates.noindex/Previews/iphonesimulator/TanTan/Intermediates.noindex",
+          "ONLY_ACTIVE_ARCH" : "YES",
+          "SYMROOT" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/Build/Intermediates.noindex/Previews/iphonesimulator/TanTan/Products",
+          "TARGET_DEVICE_IDENTIFIER" : "084D1829-A27E-4EB2-B96C-5BEA88806B9F",
+          "TARGET_DEVICE_MODEL" : "iPhone16,1",
+          "TARGET_DEVICE_OS_VERSION" : "17.4",
+          "TARGET_DEVICE_PLATFORM_NAME" : "iphonesimulator"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}
