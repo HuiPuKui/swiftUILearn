@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32286E232CC162B0008215B7 /* UserCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32286E222CC162B0008215B7 /* UserCard.swift */; };
+		32286E252CC1630C008215B7 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32286E242CC1630C008215B7 /* HomeScreen.swift */; };
+		32286E272CC1633E008215B7 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32286E262CC1633E008215B7 /* HomeViewModel.swift */; };
+		32286E292CC1652B008215B7 /* UserCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32286E282CC1652B008215B7 /* UserCardView.swift */; };
 		3243E9E12CC0310500ACB2B4 /* TanTanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3243E9E02CC0310500ACB2B4 /* TanTanApp.swift */; };
 		3243E9E32CC0310500ACB2B4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3243E9E22CC0310500ACB2B4 /* ContentView.swift */; };
 		3243E9E52CC0310600ACB2B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3243E9E42CC0310600ACB2B4 /* Assets.xcassets */; };
@@ -15,6 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		32286E222CC162B0008215B7 /* UserCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCard.swift; sourceTree = "<group>"; };
+		32286E242CC1630C008215B7 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		32286E262CC1633E008215B7 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		32286E282CC1652B008215B7 /* UserCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCardView.swift; sourceTree = "<group>"; };
 		3243E9DD2CC0310500ACB2B4 /* TanTan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TanTan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3243E9E02CC0310500ACB2B4 /* TanTanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TanTanApp.swift; sourceTree = "<group>"; };
 		3243E9E22CC0310500ACB2B4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,11 +61,15 @@
 		3243E9DF2CC0310500ACB2B4 /* TanTan */ = {
 			isa = PBXGroup;
 			children = (
+				32286E282CC1652B008215B7 /* UserCardView.swift */,
 				3243E9E02CC0310500ACB2B4 /* TanTanApp.swift */,
 				3243E9E22CC0310500ACB2B4 /* ContentView.swift */,
 				3243E9EE2CC0373300ACB2B4 /* AppState.swift */,
 				3243E9E42CC0310600ACB2B4 /* Assets.xcassets */,
 				3243E9E62CC0310600ACB2B4 /* Preview Content */,
+				32286E222CC162B0008215B7 /* UserCard.swift */,
+				32286E242CC1630C008215B7 /* HomeScreen.swift */,
+				32286E262CC1633E008215B7 /* HomeViewModel.swift */,
 			);
 			path = TanTan;
 			sourceTree = "<group>";
@@ -141,8 +153,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				3243E9EF2CC0373300ACB2B4 /* AppState.swift in Sources */,
+				32286E272CC1633E008215B7 /* HomeViewModel.swift in Sources */,
+				32286E252CC1630C008215B7 /* HomeScreen.swift in Sources */,
 				3243E9E32CC0310500ACB2B4 /* ContentView.swift in Sources */,
+				32286E232CC162B0008215B7 /* UserCard.swift in Sources */,
 				3243E9E12CC0310500ACB2B4 /* TanTanApp.swift in Sources */,
+				32286E292CC1652B008215B7 /* UserCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
