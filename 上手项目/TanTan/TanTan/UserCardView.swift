@@ -46,17 +46,23 @@ struct UserCardView: View {
             .padding(.top, 10)
             .padding(.horizontal)
             
-            HStack {
-                if offset.width > 0 {
-                    createUserCardLabel(title: "LIKE", degree: -20, color: .green)
-                    Spacer()
-                } else if offset.width < 0 {
-                    Spacer()
-                    createUserCardLabel(title: "NOPE", degree: 20, color: .red)
+            VStack {
+                HStack {
+                    if offset.width > 0 {
+                        createUserCardLabel(title: "LIKE", degree: -20, color: .green)
+                        Spacer()
+                    } else if offset.width < 0 {
+                        Spacer()
+                        createUserCardLabel(title: "NOPE", degree: 20, color: .red)
+                    }
                 }
+                .padding(.horizontal, 30)
+                .padding(.top, 40)
+                
+                Spacer()
+                
+                createUserCardBottomInfo()
             }
-            .padding(.horizontal, 30)
-            .padding(.top, 40)
         }
         .offset(offset)
         .scaleEffect(getScaleAmount())
@@ -64,10 +70,14 @@ struct UserCardView: View {
         .gesture(
             DragGesture()
                 .onChanged { value in
-                    self.offset = value.translation
+                    withAnimation(.easeOut(duration: 0.2)) {
+                        self.offset = value.translation
+                    }
                 }
                 .onEnded { value in
-                    self.offset = .zero
+                    withAnimation(.easeOut(duration: 0.2)) {
+                        self.offset = .zero
+                    }
                 }
         )
     }
@@ -88,6 +98,7 @@ struct UserCardView: View {
     
     func createUserCardLabel(title: String, degree: Double, color: Color) -> some View {
         Text(title)
+            .tracking(3)
             .font(.title)
             .fontWeight(.bold)
             .padding(.horizontal)
@@ -102,6 +113,42 @@ struct UserCardView: View {
     func updateimageIndex(hasMoreImage: Bool) {
         let nextIndex = hasMoreImage ? imageIndex + 1 : imageIndex - 1
         imageIndex = min(max(0, nextIndex), userCard.photos.count - 1)
+    }
+    
+    func createUserCardBottomInfo() -> some View {
+        HStack {
+            VStack(alignment: .leading, spacing: 5) {
+                Text("\(userCard.name), \(userCard.age)")
+                    .font(.system(size: 30))
+                    .fontWeight(.heavy)
+                HStack {
+                    Text(userCard.zodiac)
+                        .fontWeight(.bold)
+                        .padding(5)
+                        .background(.white.opacity(0.3))
+                        .cornerRadius(5)
+                    Text(userCard.place)
+                }
+                
+            }
+            
+            Spacer()
+            
+            Button(action: {
+                
+            }, label: {
+                Image(systemName: "info.circle.fill")
+                    .font(.system(size: 30))
+                    .padding(8)
+            })
+        }
+        .foregroundColor(.white)
+        .padding()
+        .background(
+            LinearGradient(colors: [.black.opacity(0.9), .clear], startPoint: .bottom, endPoint: .top)
+        )
+        .cornerRadius(20)
+        .clipped()
     }
 }
 

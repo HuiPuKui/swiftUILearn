@@ -9,8 +9,49 @@ import protocol SwiftUI.View
 import SwiftUI
 
 extension UserCardView {
+    @_dynamicReplacement(for: createUserCardBottomInfo()) private func __preview__createUserCardBottomInfo() -> some View {
+        #sourceLocation(file: "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/TanTan/UserCardView.swift", line: 119)
+        HStack {
+            VStack(alignment: .leading, spacing: __designTimeInteger("#2741.[1].[8].[0].arg[0].value.[0].arg[1].value", fallback: 5)) {
+                Text("\(userCard.name), \(userCard.age)")
+                    .font(.system(size: __designTimeInteger("#2741.[1].[8].[0].arg[0].value.[0].arg[2].value.[0].modifier[0].arg[0].value.arg[0].value", fallback: 30)))
+                    .fontWeight(.heavy)
+                HStack {
+                    Text(userCard.zodiac)
+                        .fontWeight(.bold)
+                        .padding(__designTimeInteger("#2741.[1].[8].[0].arg[0].value.[0].arg[2].value.[1].arg[0].value.[0].modifier[1].arg[0].value", fallback: 5))
+                        .background(.white.opacity(__designTimeFloat("#2741.[1].[8].[0].arg[0].value.[0].arg[2].value.[1].arg[0].value.[0].modifier[2].arg[0].value.modifier[0].arg[0].value", fallback: 0.3)))
+                        .cornerRadius(__designTimeInteger("#2741.[1].[8].[0].arg[0].value.[0].arg[2].value.[1].arg[0].value.[0].modifier[3].arg[0].value", fallback: 5))
+                    Text(userCard.place)
+                }
+                
+            }
+            
+            Spacer()
+            
+            Button(action: {
+                
+            }, label: {
+                Image(systemName: __designTimeString("#2741.[1].[8].[0].arg[0].value.[2].arg[1].value.[0].arg[0].value", fallback: "info.circle.fill"))
+                    .font(.system(size: __designTimeInteger("#2741.[1].[8].[0].arg[0].value.[2].arg[1].value.[0].modifier[0].arg[0].value.arg[0].value", fallback: 30)))
+                    .padding(__designTimeInteger("#2741.[1].[8].[0].arg[0].value.[2].arg[1].value.[0].modifier[1].arg[0].value", fallback: 8))
+            })
+        }
+        .foregroundColor(.white)
+        .padding()
+        .background(
+            LinearGradient(colors: [.black.opacity(__designTimeFloat("#2741.[1].[8].[0].modifier[2].arg[0].value.arg[0].value.[0].modifier[0].arg[0].value", fallback: 0.9)), .clear], startPoint: .bottom, endPoint: .top)
+        )
+        .cornerRadius(__designTimeInteger("#2741.[1].[8].[0].modifier[3].arg[0].value", fallback: 20))
+        .clipped()
+    
+#sourceLocation()
+    }
+}
+
+extension UserCardView {
     @_dynamicReplacement(for: updateimageIndex(hasMoreImage:)) private func __preview__updateimageIndex(hasMoreImage: Bool) {
-        #sourceLocation(file: "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/TanTan/UserCardView.swift", line: 103)
+        #sourceLocation(file: "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/TanTan/UserCardView.swift", line: 114)
         let nextIndex = hasMoreImage ? imageIndex + __designTimeInteger("#2741.[1].[7].[0].value.then.[0]", fallback: 1) : imageIndex - __designTimeInteger("#2741.[1].[7].[0].value.else.[0]", fallback: 1)
         imageIndex = min(max(__designTimeInteger("#2741.[1].[7].[1].[0]", fallback: 0), nextIndex), userCard.photos.count - __designTimeInteger("#2741.[1].[7].[1].[1]", fallback: 1))
     
@@ -20,15 +61,16 @@ extension UserCardView {
 
 extension UserCardView {
     @_dynamicReplacement(for: createUserCardLabel(title:degree:color:)) private func __preview__createUserCardLabel(title: String, degree: Double, color: Color) -> some View {
-        #sourceLocation(file: "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/TanTan/UserCardView.swift", line: 90)
+        #sourceLocation(file: "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/TanTan/UserCardView.swift", line: 100)
         Text(title)
+            .tracking(__designTimeInteger("#2741.[1].[6].[0].modifier[0].arg[0].value", fallback: 3))
             .font(.title)
             .fontWeight(.bold)
             .padding(.horizontal)
             .foregroundColor(color)
             .overlay(
-                RoundedRectangle(cornerRadius: __designTimeInteger("#2741.[1].[6].[0].modifier[4].arg[0].value.arg[0].value", fallback: 5))
-                    .stroke(color, lineWidth: __designTimeInteger("#2741.[1].[6].[0].modifier[4].arg[0].value.modifier[0].arg[1].value", fallback: 3))
+                RoundedRectangle(cornerRadius: __designTimeInteger("#2741.[1].[6].[0].modifier[5].arg[0].value.arg[0].value", fallback: 5))
+                    .stroke(color, lineWidth: __designTimeInteger("#2741.[1].[6].[0].modifier[5].arg[0].value.modifier[0].arg[1].value", fallback: 3))
             )
             .rotationEffect(Angle(degrees: degree))
     
@@ -38,7 +80,7 @@ extension UserCardView {
 
 extension UserCardView {
     @_dynamicReplacement(for: getRotationAmount()) private func __preview__getRotationAmount() -> Double {
-        #sourceLocation(file: "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/TanTan/UserCardView.swift", line: 83)
+        #sourceLocation(file: "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/TanTan/UserCardView.swift", line: 93)
         let max = UIScreen.main.bounds.width / __designTimeInteger("#2741.[1].[5].[0].value.[0]", fallback: 2)
         let currentAmount = offset.width
         let percentage = currentAmount / max
@@ -50,7 +92,7 @@ extension UserCardView {
 
 extension UserCardView {
     @_dynamicReplacement(for: getScaleAmount()) private func __preview__getScaleAmount() -> CGFloat {
-        #sourceLocation(file: "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/TanTan/UserCardView.swift", line: 76)
+        #sourceLocation(file: "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/TanTan/UserCardView.swift", line: 86)
         let max = UIScreen.main.bounds.width / __designTimeInteger("#2741.[1].[4].[0].value.[0]", fallback: 2)
         let currentAmount = abs(offset.width)
         let percentage = currentAmount / max
@@ -95,17 +137,23 @@ extension UserCardView {
             .padding(.top, __designTimeInteger("#2741.[1].[3].property.[0].[0].arg[0].value.[4].modifier[0].arg[1].value", fallback: 10))
             .padding(.horizontal)
             
-            HStack {
-                if offset.width > 0 {
-                    createUserCardLabel(title: __designTimeString("#2741.[1].[3].property.[0].[0].arg[0].value.[5].arg[0].value.[0].[0].[0].arg[0].value", fallback: "LIKE"), degree: __designTimeInteger("#2741.[1].[3].property.[0].[0].arg[0].value.[5].arg[0].value.[0].[0].[0].arg[1].value", fallback: -20), color: .green)
-                    Spacer()
-                } else if offset.width < 0 {
-                    Spacer()
-                    createUserCardLabel(title: __designTimeString("#2741.[1].[3].property.[0].[0].arg[0].value.[5].arg[0].value.[0].[1].[1].arg[0].value", fallback: "NOPE"), degree: __designTimeInteger("#2741.[1].[3].property.[0].[0].arg[0].value.[5].arg[0].value.[0].[1].[1].arg[1].value", fallback: 20), color: .red)
+            VStack {
+                HStack {
+                    if offset.width > 0 {
+                        createUserCardLabel(title: __designTimeString("#2741.[1].[3].property.[0].[0].arg[0].value.[5].arg[0].value.[0].arg[0].value.[0].[0].[0].arg[0].value", fallback: "LIKE"), degree: __designTimeInteger("#2741.[1].[3].property.[0].[0].arg[0].value.[5].arg[0].value.[0].arg[0].value.[0].[0].[0].arg[1].value", fallback: -20), color: .green)
+                        Spacer()
+                    } else if offset.width < 0 {
+                        Spacer()
+                        createUserCardLabel(title: __designTimeString("#2741.[1].[3].property.[0].[0].arg[0].value.[5].arg[0].value.[0].arg[0].value.[0].[1].[1].arg[0].value", fallback: "NOPE"), degree: __designTimeInteger("#2741.[1].[3].property.[0].[0].arg[0].value.[5].arg[0].value.[0].arg[0].value.[0].[1].[1].arg[1].value", fallback: 20), color: .red)
+                    }
                 }
+                .padding(.horizontal, __designTimeInteger("#2741.[1].[3].property.[0].[0].arg[0].value.[5].arg[0].value.[0].modifier[0].arg[1].value", fallback: 30))
+                .padding(.top, __designTimeInteger("#2741.[1].[3].property.[0].[0].arg[0].value.[5].arg[0].value.[0].modifier[1].arg[1].value", fallback: 40))
+                
+                Spacer()
+                
+                createUserCardBottomInfo()
             }
-            .padding(.horizontal, __designTimeInteger("#2741.[1].[3].property.[0].[0].arg[0].value.[5].modifier[0].arg[1].value", fallback: 30))
-            .padding(.top, __designTimeInteger("#2741.[1].[3].property.[0].[0].arg[0].value.[5].modifier[1].arg[1].value", fallback: 40))
         }
         .offset(offset)
         .scaleEffect(getScaleAmount())
@@ -113,10 +161,14 @@ extension UserCardView {
         .gesture(
             DragGesture()
                 .onChanged { value in
-                    self.offset = value.translation
+                    withAnimation(.easeOut(duration: __designTimeFloat("#2741.[1].[3].property.[0].[0].modifier[3].arg[0].value.modifier[0].arg[0].value.[0].arg[0].value.arg[0].value", fallback: 0.2))) {
+                        self.offset = value.translation
+                    }
                 }
                 .onEnded { value in
-                    self.offset = .zero
+                    withAnimation(.easeOut(duration: __designTimeFloat("#2741.[1].[3].property.[0].[0].modifier[3].arg[0].value.modifier[1].arg[0].value.[0].arg[0].value.arg[0].value", fallback: 0.2))) {
+                        self.offset = .zero
+                    }
                 }
         )
     
