@@ -22,8 +22,34 @@ struct UserCardView: View {
                 .frame(width: frameWidth, height: frameHeight)
                 .aspectRatio(contentMode: .fit)
                 .cornerRadius(20)
+            
+            HStack {
+                Rectangle()
+                    .onTapGesture {
+                        updateimageIndex(hasMoreImage: false)
+                    }
+                Rectangle()
+                    .onTapGesture {
+                        updateimageIndex(hasMoreImage: true)
+                    }
+            }
+            .foregroundColor(.white.opacity(0.01))
+            
+            HStack {
+                ForEach(0..<userCard.photos.count, id: \.self) { imageIndex in
+                    RoundedRectangle(cornerRadius: 20)
+                        .frame(height: 4)
+                        .foregroundColor(self.imageIndex == imageIndex ? .white : .gray).opacity(0.5)
+                }
+            }
+            .padding(.top, 10)
+            .padding(.horizontal)
         }
-        
+    }
+    
+    func updateimageIndex(hasMoreImage: Bool) {
+        let nextIndex = hasMoreImage ? imageIndex + 1 : imageIndex - 1
+        imageIndex = min(max(0, nextIndex), userCard.photos.count - 1)
     }
 }
 
