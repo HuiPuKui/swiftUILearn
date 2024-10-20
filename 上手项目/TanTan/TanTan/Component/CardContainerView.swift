@@ -47,7 +47,7 @@ struct CardContainerView: View {
                 }
             }
             .padding(.horizontal, 20)
-            .padding(.vertical, 50)
+            .padding(.vertical, 20)
         }
         
     }
