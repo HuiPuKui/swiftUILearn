@@ -11,6 +11,7 @@ struct UserCardView: View {
     
     var userCard: UserCard
     var swipeAction: (() -> Void)?
+    var isFullScreen: Bool = false
     @State var imageIndex = 0
     @State var offset: CGSize = .zero
     
@@ -23,7 +24,7 @@ struct UserCardView: View {
                     .resizable()
                     .frame(width: frameWidth, height: frameHeight)
                     .aspectRatio(contentMode: .fit)
-                    .cornerRadius(20)
+                    .cornerRadius(isFullScreen ? 0 : 20)
                 
                 HStack {
                     Rectangle()
@@ -47,22 +48,24 @@ struct UserCardView: View {
                 .padding(.top, 10)
                 .padding(.horizontal)
                 
-                VStack {
-                    HStack {
-                        if offset.width > 0 {
-                            createUserCardLabel(title: "LIKE", degree: -20, color: .green)
-                            Spacer()
-                        } else if offset.width < 0 {
-                            Spacer()
-                            createUserCardLabel(title: "NOPE", degree: 20, color: .red)
+                if !isFullScreen {
+                    VStack {
+                        HStack {
+                            if offset.width > 0 {
+                                createUserCardLabel(title: "LIKE", degree: -20, color: .green)
+                                Spacer()
+                            } else if offset.width < 0 {
+                                Spacer()
+                                createUserCardLabel(title: "NOPE", degree: 20, color: .red)
+                            }
                         }
+                        .padding(.horizontal, 30)
+                        .padding(.top, 40)
+                        
+                        Spacer()
+                        
+                        createUserCardBottomInfo()
                     }
-                    .padding(.horizontal, 30)
-                    .padding(.top, 40)
-                    
-                    Spacer()
-                    
-                    createUserCardBottomInfo()
                 }
             }
             .offset(offset)
@@ -71,22 +74,28 @@ struct UserCardView: View {
             .gesture(
                 DragGesture()
                     .onChanged { value in
-                        withAnimation(.easeOut(duration: 0.2)) {
-                            self.offset = value.translation
-                        }
-                    }
-                    .onEnded { value in
-                        withAnimation(.easeOut(duration: 0.2)) {
-                            let screenCutoff = frameWidth / 2 * 0.8
-                            let translation = value.translation.width
-                            let checkingStatus = translation > 0 ? translation : -translation
-                            if checkingStatus > screenCutoff {
-                                self.offset = CGSize(width: (translation > 0 ? frameWidth : -frameWidth) * 5, height: (value.translation.height))
-                                swipeAction?()
-                            } else {
-                                self.offset = .zero
+                        if !isFullScreen {
+                            withAnimation(.easeOut(duration: 0.2)) {
+                                self.offset = value.translation
                             }
                         }
+                        
+                    }
+                    .onEnded { value in
+                        if !isFullScreen {
+                            withAnimation(.easeOut(duration: 0.2)) {
+                                let screenCutoff = frameWidth / 2 * 0.8
+                                let translation = value.translation.width
+                                let checkingStatus = translation > 0 ? translation : -translation
+                                if checkingStatus > screenCutoff {
+                                    self.offset = CGSize(width: (translation > 0 ? frameWidth : -frameWidth) * 5, height: (value.translation.height))
+                                    swipeAction?()
+                                } else {
+                                    self.offset = .zero
+                                }
+                            }
+                        }
+                        
                     }
             )
         }

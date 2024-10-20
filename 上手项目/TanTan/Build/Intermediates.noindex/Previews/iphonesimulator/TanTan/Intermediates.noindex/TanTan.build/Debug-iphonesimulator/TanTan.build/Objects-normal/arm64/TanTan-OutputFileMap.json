@@ -35,6 +35,16 @@
     "swift-dependencies" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/Build/Intermediates.noindex/Previews/iphonesimulator/TanTan/Intermediates.noindex/TanTan.build/Debug-iphonesimulator/TanTan.build/Objects-normal/arm64/CardContainerView.swiftdeps",
     "swiftmodule" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/Build/Intermediates.noindex/Previews/iphonesimulator/TanTan/Intermediates.noindex/TanTan.build/Debug-iphonesimulator/TanTan.build/Objects-normal/arm64/CardContainerView~partial.swiftmodule"
   },
+  "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/TanTan/Component/CardDetailView.swift" : {
+    "const-values" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/Build/Intermediates.noindex/Previews/iphonesimulator/TanTan/Intermediates.noindex/TanTan.build/Debug-iphonesimulator/TanTan.build/Objects-normal/arm64/CardDetailView.swiftconstvalues",
+    "dependencies" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/Build/Intermediates.noindex/Previews/iphonesimulator/TanTan/Intermediates.noindex/TanTan.build/Debug-iphonesimulator/TanTan.build/Objects-normal/arm64/CardDetailView.d",
+    "diagnostics" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/Build/Intermediates.noindex/Previews/iphonesimulator/TanTan/Intermediates.noindex/TanTan.build/Debug-iphonesimulator/TanTan.build/Objects-normal/arm64/CardDetailView.dia",
+    "index-unit-output-path" : "/TanTan.build/Debug-iphonesimulator/TanTan.build/Objects-normal/arm64/CardDetailView.o",
+    "llvm-bc" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/Build/Intermediates.noindex/Previews/iphonesimulator/TanTan/Intermediates.noindex/TanTan.build/Debug-iphonesimulator/TanTan.build/Objects-normal/arm64/CardDetailView.bc",
+    "object" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/Build/Intermediates.noindex/Previews/iphonesimulator/TanTan/Intermediates.noindex/TanTan.build/Debug-iphonesimulator/TanTan.build/Objects-normal/arm64/CardDetailView.o",
+    "swift-dependencies" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/Build/Intermediates.noindex/Previews/iphonesimulator/TanTan/Intermediates.noindex/TanTan.build/Debug-iphonesimulator/TanTan.build/Objects-normal/arm64/CardDetailView.swiftdeps",
+    "swiftmodule" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/Build/Intermediates.noindex/Previews/iphonesimulator/TanTan/Intermediates.noindex/TanTan.build/Debug-iphonesimulator/TanTan.build/Objects-normal/arm64/CardDetailView~partial.swiftmodule"
+  },
   "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/TanTan/Component/NoResultView.swift" : {
     "const-values" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/Build/Intermediates.noindex/Previews/iphonesimulator/TanTan/Intermediates.noindex/TanTan.build/Debug-iphonesimulator/TanTan.build/Objects-normal/arm64/NoResultView.swiftconstvalues",
     "dependencies" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/Build/Intermediates.noindex/Previews/iphonesimulator/TanTan/Intermediates.noindex/TanTan.build/Debug-iphonesimulator/TanTan.build/Objects-normal/arm64/NoResultView.d",
