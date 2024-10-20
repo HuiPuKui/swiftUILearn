@@ -21,6 +21,7 @@
 		326CD9502CC4E45400794409 /* CardContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326CD94F2CC4E45400794409 /* CardContainerView.swift */; };
 		326CD9522CC4F16B00794409 /* NoResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326CD9512CC4F16B00794409 /* NoResultView.swift */; };
 		326CD9592CC4F7EB00794409 /* CardDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326CD9582CC4F7EB00794409 /* CardDetailView.swift */; };
+		326CD9752CC5148300794409 /* PickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326CD9742CC5148300794409 /* PickView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		326CD94F2CC4E45400794409 /* CardContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardContainerView.swift; sourceTree = "<group>"; };
 		326CD9512CC4F16B00794409 /* NoResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoResultView.swift; sourceTree = "<group>"; };
 		326CD9582CC4F7EB00794409 /* CardDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetailView.swift; sourceTree = "<group>"; };
+		326CD9742CC5148300794409 /* PickView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 				32286E442CC17627008215B7 /* RoundButton.swift */,
 				326CD94F2CC4E45400794409 /* CardContainerView.swift */,
 				326CD9582CC4F7EB00794409 /* CardDetailView.swift */,
+				326CD9742CC5148300794409 /* PickView.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -209,6 +212,7 @@
 			files = (
 				32286E452CC17627008215B7 /* RoundButton.swift in Sources */,
 				3243E9EF2CC0373300ACB2B4 /* AppState.swift in Sources */,
+				326CD9752CC5148300794409 /* PickView.swift in Sources */,
 				326CD9502CC4E45400794409 /* CardContainerView.swift in Sources */,
 				326CD9592CC4F7EB00794409 /* CardDetailView.swift in Sources */,
 				32286E272CC1633E008215B7 /* HomeViewModel.swift in Sources */,
