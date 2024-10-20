@@ -16,7 +16,68 @@
 		</dict>
 	</array>
 	<key>images</key>
-	<array/>
+	<array>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/TanTan/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameUser1</string>
+			<key>relativePath</key>
+			<string>./Cards/User1.imageset</string>
+			<key>swiftSymbol</key>
+			<string>user1</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/TanTan/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameUser2</string>
+			<key>relativePath</key>
+			<string>./Cards/User2.imageset</string>
+			<key>swiftSymbol</key>
+			<string>user2</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/TanTan/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameUser3</string>
+			<key>relativePath</key>
+			<string>./Cards/User3.imageset</string>
+			<key>swiftSymbol</key>
+			<string>user3</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/TanTan/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameUser4</string>
+			<key>relativePath</key>
+			<string>./Cards/User4.imageset</string>
+			<key>swiftSymbol</key>
+			<string>user4</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/TanTan/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameUser5</string>
+			<key>relativePath</key>
+			<string>./Cards/User5.imageset</string>
+			<key>swiftSymbol</key>
+			<string>user5</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/TanTan/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameUser6</string>
+			<key>relativePath</key>
+			<string>./Cards/User6.imageset</string>
+			<key>swiftSymbol</key>
+			<string>user6</string>
+		</dict>
+	</array>
 	<key>symbols</key>
 	<array/>
 </dict>

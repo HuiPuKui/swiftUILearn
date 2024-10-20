@@ -18,11 +18,11 @@ extension ColorButton {
         case .no:
             content
                 .foregroundColor(.white)
-                .padding(.horizontal, __designTimeInteger("#42250.[4].[1].[0].[1].[0].modifier[1].arg[1].value", fallback: 30))
+                .padding(.horizontal, __designTimeInteger("#4665.[4].[1].[0].[1].[0].modifier[1].arg[1].value", fallback: 30))
         case .heart:
             content
                 .foregroundColor(.red)
-                .padding(.horizontal, __designTimeInteger("#42250.[4].[1].[0].[2].[0].modifier[1].arg[1].value", fallback: 0))
+                .padding(.horizontal, __designTimeInteger("#4665.[4].[1].[0].[2].[0].modifier[1].arg[1].value", fallback: 30))
         case .star:
             content
                 .foregroundColor(.blue)
@@ -37,7 +37,7 @@ extension PressScaleButton {
         #sourceLocation(file: "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/TanTan/RoundButton.swift", line: 41)
         configuration.label
             .clipShape(Capsule())
-            .scaleEffect(configuration.isPressed ? __designTimeFloat("#42250.[3].[0].[0].modifier[1].arg[0].value.then", fallback: 0.7) : __designTimeFloat("#42250.[3].[0].[0].modifier[1].arg[0].value.else", fallback: 1.0))
+            .scaleEffect(configuration.isPressed ? __designTimeFloat("#4665.[3].[0].[0].modifier[1].arg[0].value.then", fallback: 0.7) : __designTimeFloat("#4665.[3].[0].[0].modifier[1].arg[0].value.else", fallback: 1.0))
     
 #sourceLocation()
     }
@@ -52,9 +52,9 @@ extension RoundButton {
             Image(systemName: type.rawValue)
                 .resizable()
                 .aspectRatio(contentMode: .fit)
-                .padding(__designTimeInteger("#42250.[2].[1].property.[0].[0].arg[1].value.[0].modifier[2].arg[0].value", fallback: 12))
+                .padding(__designTimeInteger("#4665.[2].[1].property.[0].[0].arg[1].value.[0].modifier[2].arg[0].value", fallback: 12))
                 .colorButton(type: type)
-                .background(.black.opacity(__designTimeFloat("#42250.[2].[1].property.[0].[0].arg[1].value.[0].modifier[4].arg[0].value.modifier[0].arg[0].value", fallback: 0.4)))
+                .background(.black.opacity(__designTimeFloat("#4665.[2].[1].property.[0].[0].arg[1].value.[0].modifier[4].arg[0].value.modifier[0].arg[0].value", fallback: 0.4)))
         }
         .buttonStyle(PressScaleButton())
     

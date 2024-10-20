@@ -18,6 +18,7 @@
 		3243E9E52CC0310600ACB2B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3243E9E42CC0310600ACB2B4 /* Assets.xcassets */; };
 		3243E9E82CC0310600ACB2B4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3243E9E72CC0310600ACB2B4 /* Preview Assets.xcassets */; };
 		3243E9EF2CC0373300ACB2B4 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3243E9EE2CC0373300ACB2B4 /* AppState.swift */; };
+		326CD9502CC4E45400794409 /* CardContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326CD94F2CC4E45400794409 /* CardContainerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		3243E9E42CC0310600ACB2B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3243E9E72CC0310600ACB2B4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3243E9EE2CC0373300ACB2B4 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		326CD94F2CC4E45400794409 /* CardContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardContainerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				32286E242CC1630C008215B7 /* HomeScreen.swift */,
 				32286E262CC1633E008215B7 /* HomeViewModel.swift */,
 				32286E442CC17627008215B7 /* RoundButton.swift */,
+				326CD94F2CC4E45400794409 /* CardContainerView.swift */,
 				32286E462CC178F5008215B7 /* View+Extension.swift */,
 			);
 			path = TanTan;
@@ -160,6 +163,7 @@
 			files = (
 				32286E452CC17627008215B7 /* RoundButton.swift in Sources */,
 				3243E9EF2CC0373300ACB2B4 /* AppState.swift in Sources */,
+				326CD9502CC4E45400794409 /* CardContainerView.swift in Sources */,
 				32286E272CC1633E008215B7 /* HomeViewModel.swift in Sources */,
 				32286E252CC1630C008215B7 /* HomeScreen.swift in Sources */,
 				3243E9E32CC0310500ACB2B4 /* ContentView.swift in Sources */,

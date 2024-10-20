@@ -11,11 +11,7 @@ import SwiftUI
 extension HomeScreen {
     @_dynamicReplacement(for: body) private var __preview__body: some View {
         #sourceLocation(file: "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/TanTan/HomeScreen.swift", line: 15)
-        ZStack {
-            ForEach(viewModel.displayingCard.reversed()) { card in
-                UserCardView(userCard: card)
-            }
-        }
+        CardContainerView(viewModel: viewModel)
     
 #sourceLocation()
     }

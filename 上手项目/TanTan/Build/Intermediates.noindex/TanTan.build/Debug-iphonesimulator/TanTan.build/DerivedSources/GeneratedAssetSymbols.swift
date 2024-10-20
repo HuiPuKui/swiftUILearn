@@ -34,6 +34,24 @@ extension DeveloperToolsSupport.ColorResource {
 @available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, *)
 extension DeveloperToolsSupport.ImageResource {
 
+    /// The "User1" asset catalog image resource.
+    static let user1 = DeveloperToolsSupport.ImageResource(name: "User1", bundle: resourceBundle)
+
+    /// The "User2" asset catalog image resource.
+    static let user2 = DeveloperToolsSupport.ImageResource(name: "User2", bundle: resourceBundle)
+
+    /// The "User3" asset catalog image resource.
+    static let user3 = DeveloperToolsSupport.ImageResource(name: "User3", bundle: resourceBundle)
+
+    /// The "User4" asset catalog image resource.
+    static let user4 = DeveloperToolsSupport.ImageResource(name: "User4", bundle: resourceBundle)
+
+    /// The "User5" asset catalog image resource.
+    static let user5 = DeveloperToolsSupport.ImageResource(name: "User5", bundle: resourceBundle)
+
+    /// The "User6" asset catalog image resource.
+    static let user6 = DeveloperToolsSupport.ImageResource(name: "User6", bundle: resourceBundle)
+
 }
 
 // MARK: - Color Symbol Extensions -
@@ -97,6 +115,60 @@ extension SwiftUI.ShapeStyle where Self == SwiftUI.Color {
 @available(macCatalyst, unavailable)
 extension AppKit.NSImage {
 
+    /// The "User1" asset catalog image.
+    static var user1: AppKit.NSImage {
+#if !targetEnvironment(macCatalyst)
+        .init(resource: .user1)
+#else
+        .init()
+#endif
+    }
+
+    /// The "User2" asset catalog image.
+    static var user2: AppKit.NSImage {
+#if !targetEnvironment(macCatalyst)
+        .init(resource: .user2)
+#else
+        .init()
+#endif
+    }
+
+    /// The "User3" asset catalog image.
+    static var user3: AppKit.NSImage {
+#if !targetEnvironment(macCatalyst)
+        .init(resource: .user3)
+#else
+        .init()
+#endif
+    }
+
+    /// The "User4" asset catalog image.
+    static var user4: AppKit.NSImage {
+#if !targetEnvironment(macCatalyst)
+        .init(resource: .user4)
+#else
+        .init()
+#endif
+    }
+
+    /// The "User5" asset catalog image.
+    static var user5: AppKit.NSImage {
+#if !targetEnvironment(macCatalyst)
+        .init(resource: .user5)
+#else
+        .init()
+#endif
+    }
+
+    /// The "User6" asset catalog image.
+    static var user6: AppKit.NSImage {
+#if !targetEnvironment(macCatalyst)
+        .init(resource: .user6)
+#else
+        .init()
+#endif
+    }
+
 }
 #endif
 
@@ -104,6 +176,60 @@ extension AppKit.NSImage {
 @available(iOS 17.0, tvOS 17.0, *)
 @available(watchOS, unavailable)
 extension UIKit.UIImage {
+
+    /// The "User1" asset catalog image.
+    static var user1: UIKit.UIImage {
+#if !os(watchOS)
+        .init(resource: .user1)
+#else
+        .init()
+#endif
+    }
+
+    /// The "User2" asset catalog image.
+    static var user2: UIKit.UIImage {
+#if !os(watchOS)
+        .init(resource: .user2)
+#else
+        .init()
+#endif
+    }
+
+    /// The "User3" asset catalog image.
+    static var user3: UIKit.UIImage {
+#if !os(watchOS)
+        .init(resource: .user3)
+#else
+        .init()
+#endif
+    }
+
+    /// The "User4" asset catalog image.
+    static var user4: UIKit.UIImage {
+#if !os(watchOS)
+        .init(resource: .user4)
+#else
+        .init()
+#endif
+    }
+
+    /// The "User5" asset catalog image.
+    static var user5: UIKit.UIImage {
+#if !os(watchOS)
+        .init(resource: .user5)
+#else
+        .init()
+#endif
+    }
+
+    /// The "User6" asset catalog image.
+    static var user6: UIKit.UIImage {
+#if !os(watchOS)
+        .init(resource: .user6)
+#else
+        .init()
+#endif
+    }
 
 }
 #endif
@@ -225,6 +351,26 @@ extension DeveloperToolsSupport.ImageResource {
     }
 
 }
+
+#if canImport(AppKit)
+@available(macOS 14.0, *)
+@available(macCatalyst, unavailable)
+extension AppKit.NSImage {
+
+    private convenience init?(thinnableResource: DeveloperToolsSupport.ImageResource?) {
+#if !targetEnvironment(macCatalyst)
+        if let resource = thinnableResource {
+            self.init(resource: resource)
+        } else {
+            return nil
+        }
+#else
+        return nil
+#endif
+    }
+
+}
+#endif
 
 #if canImport(UIKit)
 @available(iOS 17.0, tvOS 17.0, *)
