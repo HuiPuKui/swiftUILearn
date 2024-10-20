@@ -1,0 +1,16 @@
+{
+  "source": "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/TanTan/Component/PickListView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Discover the people you like. Updated daily."
+      },
+      {
+        "comment": "",
+        "key": "Unlock daily picks"
+      }
+    ]
+  },
+  "version": 1
+}

@@ -22,6 +22,7 @@
 		326CD9522CC4F16B00794409 /* NoResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326CD9512CC4F16B00794409 /* NoResultView.swift */; };
 		326CD9592CC4F7EB00794409 /* CardDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326CD9582CC4F7EB00794409 /* CardDetailView.swift */; };
 		326CD9752CC5148300794409 /* PickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326CD9742CC5148300794409 /* PickView.swift */; };
+		326CD9772CC5188200794409 /* PickListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326CD9762CC5188200794409 /* PickListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		326CD9512CC4F16B00794409 /* NoResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoResultView.swift; sourceTree = "<group>"; };
 		326CD9582CC4F7EB00794409 /* CardDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetailView.swift; sourceTree = "<group>"; };
 		326CD9742CC5148300794409 /* PickView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickView.swift; sourceTree = "<group>"; };
+		326CD9762CC5188200794409 /* PickListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 				326CD94F2CC4E45400794409 /* CardContainerView.swift */,
 				326CD9582CC4F7EB00794409 /* CardDetailView.swift */,
 				326CD9742CC5148300794409 /* PickView.swift */,
+				326CD9762CC5188200794409 /* PickListView.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 				326CD9592CC4F7EB00794409 /* CardDetailView.swift in Sources */,
 				32286E272CC1633E008215B7 /* HomeViewModel.swift in Sources */,
 				32286E252CC1630C008215B7 /* HomeScreen.swift in Sources */,
+				326CD9772CC5188200794409 /* PickListView.swift in Sources */,
 				3243E9E32CC0310500ACB2B4 /* ContentView.swift in Sources */,
 				32286E232CC162B0008215B7 /* UserCard.swift in Sources */,
 				326CD9522CC4F16B00794409 /* NoResultView.swift in Sources */,

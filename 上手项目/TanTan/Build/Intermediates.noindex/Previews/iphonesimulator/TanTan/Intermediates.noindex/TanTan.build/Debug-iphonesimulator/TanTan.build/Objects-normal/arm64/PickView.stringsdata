@@ -1,5 +1,12 @@
 {
   "source": "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/TanTan/Component/PickView.swift",
-  "tables": {},
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "%@\n%lld"
+      }
+    ]
+  },
   "version": 1
 }

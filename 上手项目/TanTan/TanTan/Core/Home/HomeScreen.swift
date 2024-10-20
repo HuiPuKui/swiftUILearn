@@ -42,7 +42,7 @@ struct HomeScreen: View {
                 NoResultView()
             }
         case .PICKS:
-            Text("PICKS")
+            PickListView(cards: viewModel.displayingCard)
         }
     }
     

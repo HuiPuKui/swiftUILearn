@@ -40,7 +40,7 @@ extension HomeScreen {
                 NoResultView()
             }
         case .PICKS:
-            Text(__designTimeString("#52992.[1].[3].[0].[1].[0].arg[0].value", fallback: "PICKS"))
+            PickListView(cards: viewModel.displayingCard)
         }
     
 #sourceLocation()

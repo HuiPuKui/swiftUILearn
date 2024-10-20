@@ -39,7 +39,6 @@ struct PickView: View {
 }
 
 #Preview {
-//    let card =
     PickView(card: UserCard(name: "Jame", age: 23, place: "New Youk", zodiac: "Cancer", photos: ["User1"]), blur: true)
         .frame(width: 200, height: 300)
 }
