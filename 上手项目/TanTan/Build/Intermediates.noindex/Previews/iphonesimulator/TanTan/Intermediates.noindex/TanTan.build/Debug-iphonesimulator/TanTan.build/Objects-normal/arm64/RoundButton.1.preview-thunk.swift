@@ -47,14 +47,14 @@ extension RoundButton {
     @_dynamicReplacement(for: body) private var __preview__body: some View {
         #sourceLocation(file: "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/TanTan/RoundButton.swift", line: 25)
         Button {
-            
+            action?()
         } label: {
             Image(systemName: type.rawValue)
                 .resizable()
                 .aspectRatio(contentMode: .fit)
-                .padding(__designTimeInteger("#4665.[2].[1].property.[0].[0].arg[1].value.[0].modifier[2].arg[0].value", fallback: 12))
+                .padding(__designTimeInteger("#4665.[2].[2].property.[0].[0].arg[1].value.[0].modifier[2].arg[0].value", fallback: 12))
                 .colorButton(type: type)
-                .background(.black.opacity(__designTimeFloat("#4665.[2].[1].property.[0].[0].arg[1].value.[0].modifier[4].arg[0].value.modifier[0].arg[0].value", fallback: 0.4)))
+                .background(.black.opacity(__designTimeFloat("#4665.[2].[2].property.[0].[0].arg[1].value.[0].modifier[4].arg[0].value.modifier[0].arg[0].value", fallback: 0.4)))
         }
         .buttonStyle(PressScaleButton())
     

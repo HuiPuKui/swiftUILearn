@@ -19,6 +19,7 @@
 		3243E9E82CC0310600ACB2B4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3243E9E72CC0310600ACB2B4 /* Preview Assets.xcassets */; };
 		3243E9EF2CC0373300ACB2B4 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3243E9EE2CC0373300ACB2B4 /* AppState.swift */; };
 		326CD9502CC4E45400794409 /* CardContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326CD94F2CC4E45400794409 /* CardContainerView.swift */; };
+		326CD9522CC4F16B00794409 /* NoResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326CD9512CC4F16B00794409 /* NoResultView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		3243E9E72CC0310600ACB2B4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3243E9EE2CC0373300ACB2B4 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 		326CD94F2CC4E45400794409 /* CardContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardContainerView.swift; sourceTree = "<group>"; };
+		326CD9512CC4F16B00794409 /* NoResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoResultView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,18 +69,15 @@
 		3243E9DF2CC0310500ACB2B4 /* TanTan */ = {
 			isa = PBXGroup;
 			children = (
-				32286E282CC1652B008215B7 /* UserCardView.swift */,
+				326CD9572CC4F70500794409 /* Model */,
+				326CD9562CC4F6C600794409 /* Component */,
+				326CD9552CC4F6B500794409 /* Extension */,
+				326CD9532CC4F68700794409 /* Core */,
 				3243E9E02CC0310500ACB2B4 /* TanTanApp.swift */,
 				3243E9E22CC0310500ACB2B4 /* ContentView.swift */,
 				3243E9EE2CC0373300ACB2B4 /* AppState.swift */,
 				3243E9E42CC0310600ACB2B4 /* Assets.xcassets */,
 				3243E9E62CC0310600ACB2B4 /* Preview Content */,
-				32286E222CC162B0008215B7 /* UserCard.swift */,
-				32286E242CC1630C008215B7 /* HomeScreen.swift */,
-				32286E262CC1633E008215B7 /* HomeViewModel.swift */,
-				32286E442CC17627008215B7 /* RoundButton.swift */,
-				326CD94F2CC4E45400794409 /* CardContainerView.swift */,
-				32286E462CC178F5008215B7 /* View+Extension.swift */,
 			);
 			path = TanTan;
 			sourceTree = "<group>";
@@ -89,6 +88,50 @@
 				3243E9E72CC0310600ACB2B4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		326CD9532CC4F68700794409 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				326CD9542CC4F69C00794409 /* Home */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		326CD9542CC4F69C00794409 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				32286E242CC1630C008215B7 /* HomeScreen.swift */,
+				32286E262CC1633E008215B7 /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		326CD9552CC4F6B500794409 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				32286E462CC178F5008215B7 /* View+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		326CD9562CC4F6C600794409 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				326CD9512CC4F16B00794409 /* NoResultView.swift */,
+				32286E282CC1652B008215B7 /* UserCardView.swift */,
+				32286E442CC17627008215B7 /* RoundButton.swift */,
+				326CD94F2CC4E45400794409 /* CardContainerView.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		326CD9572CC4F70500794409 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				32286E222CC162B0008215B7 /* UserCard.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +211,7 @@
 				32286E252CC1630C008215B7 /* HomeScreen.swift in Sources */,
 				3243E9E32CC0310500ACB2B4 /* ContentView.swift in Sources */,
 				32286E232CC162B0008215B7 /* UserCard.swift in Sources */,
+				326CD9522CC4F16B00794409 /* NoResultView.swift in Sources */,
 				3243E9E12CC0310500ACB2B4 /* TanTanApp.swift in Sources */,
 				32286E472CC178F5008215B7 /* View+Extension.swift in Sources */,
 				32286E292CC1652B008215B7 /* UserCardView.swift in Sources */,

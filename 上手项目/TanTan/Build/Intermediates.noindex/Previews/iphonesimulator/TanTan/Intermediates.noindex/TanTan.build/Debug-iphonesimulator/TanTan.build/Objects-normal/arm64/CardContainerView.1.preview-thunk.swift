@@ -18,7 +18,18 @@ extension CardContainerView {
             if viewModel.hasMoreCard {
                 HStack {
                     ForEach(ButtonType.allCases) { type in
-                        RoundButton(type: type)
+                        RoundButton(type: type, action: {
+                            switch type {
+                            case .back:
+                                debugPrint(__designTimeString("#5409.[1].[1].property.[0].[0].arg[1].value.[1].[0].[0].arg[0].value.[0].arg[1].value.[0].arg[1].value.[0].[0].[0].arg[0].value", fallback: "Roll Back"))
+                            case .no:
+                                viewModel.nextUserCard()
+                            case .heart:
+                                viewModel.nextUserCard()
+                            case .star:
+                                debugPrint(__designTimeString("#5409.[1].[1].property.[0].[0].arg[1].value.[1].[0].[0].arg[0].value.[0].arg[1].value.[0].arg[1].value.[0].[3].[0].arg[0].value", fallback: ""))
+                            }
+                        })
                             .frame(height: __designTimeInteger("#5409.[1].[1].property.[0].[0].arg[1].value.[1].[0].[0].arg[0].value.[0].arg[1].value.[0].modifier[0].arg[0].value", fallback: 45))
                     }
                 }
