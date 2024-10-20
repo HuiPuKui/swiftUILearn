@@ -8,10 +8,9 @@
 import SwiftUI
 
 struct UserCardView: View {
-    
+    @EnvironmentObject var appState: AppState
     var userCard: UserCard
     var swipeAction: (() -> Void)?
-    var isFullScreen: Bool = false
     @State var imageIndex = 0
     @State var offset: CGSize = .zero
     
@@ -24,7 +23,7 @@ struct UserCardView: View {
                     .resizable()
                     .frame(width: frameWidth, height: frameHeight)
                     .aspectRatio(contentMode: .fit)
-                    .cornerRadius(isFullScreen ? 0 : 20)
+                    .cornerRadius(appState.isFullScreen ? 0 : 20)
                 
                 HStack {
                     Rectangle()
@@ -48,7 +47,7 @@ struct UserCardView: View {
                 .padding(.top, 10)
                 .padding(.horizontal)
                 
-                if !isFullScreen {
+                if !appState.isFullScreen {
                     VStack {
                         HStack {
                             if offset.width > 0 {
@@ -74,7 +73,7 @@ struct UserCardView: View {
             .gesture(
                 DragGesture()
                     .onChanged { value in
-                        if !isFullScreen {
+                        if !appState.isFullScreen {
                             withAnimation(.easeOut(duration: 0.2)) {
                                 self.offset = value.translation
                             }
@@ -82,7 +81,7 @@ struct UserCardView: View {
                         
                     }
                     .onEnded { value in
-                        if !isFullScreen {
+                        if !appState.isFullScreen {
                             withAnimation(.easeOut(duration: 0.2)) {
                                 let screenCutoff = frameWidth / 2 * 0.8
                                 let translation = value.translation.width
@@ -154,7 +153,7 @@ struct UserCardView: View {
             Spacer()
             
             Button(action: {
-                
+                appState.isFullScreen = true
             }, label: {
                 Image(systemName: "info.circle.fill")
                     .font(.system(size: 30))
@@ -174,4 +173,5 @@ struct UserCardView: View {
 
 #Preview {
     UserCardView(userCard: UserCard(name: "Jame", age: 23, place: "NY", zodiac: "Cancer", photos: ["User1", "User2"]))
+        .environmentObject(AppState())
 }

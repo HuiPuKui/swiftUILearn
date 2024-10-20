@@ -1,0 +1,16 @@
+{
+  "source": "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/TanTan/Component/NoResultView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Ops, There's no one left to swipe on! Whey ont try editing your filters?"
+      },
+      {
+        "comment": "",
+        "key": "Edit Filter"
+      }
+    ]
+  },
+  "version": 1
+}

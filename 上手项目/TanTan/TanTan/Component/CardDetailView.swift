@@ -8,12 +8,14 @@
 import SwiftUI
 
 struct CardDetailView: View {
+    @EnvironmentObject var appState: AppState
     var card: UserCard
     var body: some View {
         let screen = UIScreen.main.bounds
         ScrollView(showsIndicators: false) {
             VStack(spacing: 0) {
-                UserCardView(userCard: card, isFullScreen: true)
+                UserCardView(userCard: card)
+                    .environmentObject(appState)
                     .frame(width: screen.width, height: screen.height * 0.7)
                 HStack {
                     VStack(alignment: .leading) {
@@ -32,7 +34,7 @@ struct CardDetailView: View {
                     .padding([.horizontal, .top], 20)
                     
                     Button {
-                        
+                        appState.isFullScreen = false
                     } label: {
                         Image(systemName: "arrow.up.circle.fill")
                             .font(.system(size: 40))
@@ -82,4 +84,5 @@ struct CardDetailView: View {
 
 #Preview {
     CardDetailView(card: .init(name: "Jame", age: 23, place: "New Youk", zodiac: "Cancer", photos: ["User1"]))
+        .environmentObject(AppState(isFullScreen: true))
 }

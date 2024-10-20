@@ -10,7 +10,7 @@ import SwiftUI
 
 extension UserCardView {
     @_dynamicReplacement(for: createUserCardBottomInfo()) private func __preview__createUserCardBottomInfo() -> some View {
-        #sourceLocation(file: "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/TanTan/Component/UserCardView.swift", line: 138)
+        #sourceLocation(file: "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/TanTan/Component/UserCardView.swift", line: 137)
         HStack {
             VStack(alignment: .leading, spacing: __designTimeInteger("#33113.[1].[10].[0].arg[0].value.[0].arg[1].value", fallback: 5)) {
                 Text("\(userCard.name), \(userCard.age)")
@@ -30,7 +30,7 @@ extension UserCardView {
             Spacer()
             
             Button(action: {
-                
+                appState.isFullScreen = __designTimeBoolean("#33113.[1].[10].[0].arg[0].value.[2].arg[0].value.[0].[0]", fallback: true)
             }, label: {
                 Image(systemName: __designTimeString("#33113.[1].[10].[0].arg[0].value.[2].arg[1].value.[0].arg[0].value", fallback: "info.circle.fill"))
                     .font(.system(size: __designTimeInteger("#33113.[1].[10].[0].arg[0].value.[2].arg[1].value.[0].modifier[0].arg[0].value.arg[0].value", fallback: 30)))
@@ -52,7 +52,7 @@ extension UserCardView {
 
 extension UserCardView {
     @_dynamicReplacement(for: updateimageIndex(hasMoreImage:)) private func __preview__updateimageIndex(hasMoreImage: Bool) {
-        #sourceLocation(file: "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/TanTan/Component/UserCardView.swift", line: 133)
+        #sourceLocation(file: "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/TanTan/Component/UserCardView.swift", line: 132)
         let nextIndex = hasMoreImage ? imageIndex + __designTimeInteger("#33113.[1].[9].[0].value.then.[0]", fallback: 1) : imageIndex - __designTimeInteger("#33113.[1].[9].[0].value.else.[0]", fallback: 1)
         imageIndex = min(max(__designTimeInteger("#33113.[1].[9].[1].[0]", fallback: 0), nextIndex), userCard.photos.count - __designTimeInteger("#33113.[1].[9].[1].[1]", fallback: 1))
     
@@ -62,7 +62,7 @@ extension UserCardView {
 
 extension UserCardView {
     @_dynamicReplacement(for: createUserCardLabel(title:degree:color:)) private func __preview__createUserCardLabel(title: String, degree: Double, color: Color) -> some View {
-        #sourceLocation(file: "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/TanTan/Component/UserCardView.swift", line: 119)
+        #sourceLocation(file: "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/TanTan/Component/UserCardView.swift", line: 118)
         Text(title)
             .tracking(__designTimeInteger("#33113.[1].[8].[0].modifier[0].arg[0].value", fallback: 3))
             .font(.title)
@@ -81,7 +81,7 @@ extension UserCardView {
 
 extension UserCardView {
     @_dynamicReplacement(for: getRotationAmount()) private func __preview__getRotationAmount() -> Double {
-        #sourceLocation(file: "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/TanTan/Component/UserCardView.swift", line: 112)
+        #sourceLocation(file: "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/TanTan/Component/UserCardView.swift", line: 111)
         let max = UIScreen.main.bounds.width / __designTimeInteger("#33113.[1].[7].[0].value.[0]", fallback: 2)
         let currentAmount = offset.width
         let percentage = currentAmount / max
@@ -93,7 +93,7 @@ extension UserCardView {
 
 extension UserCardView {
     @_dynamicReplacement(for: getScaleAmount()) private func __preview__getScaleAmount() -> CGFloat {
-        #sourceLocation(file: "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/TanTan/Component/UserCardView.swift", line: 105)
+        #sourceLocation(file: "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/TanTan/Component/UserCardView.swift", line: 104)
         let max = UIScreen.main.bounds.width / __designTimeInteger("#33113.[1].[6].[0].value.[0]", fallback: 2)
         let currentAmount = abs(offset.width)
         let percentage = currentAmount / max
@@ -105,7 +105,7 @@ extension UserCardView {
 
 extension UserCardView {
     @_dynamicReplacement(for: body) private var __preview__body: some View {
-        #sourceLocation(file: "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/TanTan/Component/UserCardView.swift", line: 19)
+        #sourceLocation(file: "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/TanTan/Component/UserCardView.swift", line: 18)
         GeometryReader { proxy in
             let frameWidth = proxy.size.width
             let frameHeight = proxy.size.height
@@ -114,7 +114,7 @@ extension UserCardView {
                     .resizable()
                     .frame(width: frameWidth, height: frameHeight)
                     .aspectRatio(contentMode: .fit)
-                    .cornerRadius(isFullScreen ? __designTimeInteger("#33113.[1].[5].property.[0].[0].arg[0].value.[2].arg[1].value.[0].modifier[3].arg[0].value.then", fallback: 0) : __designTimeInteger("#33113.[1].[5].property.[0].[0].arg[0].value.[2].arg[1].value.[0].modifier[3].arg[0].value.else", fallback: 20))
+                    .cornerRadius(appState.isFullScreen ? __designTimeInteger("#33113.[1].[5].property.[0].[0].arg[0].value.[2].arg[1].value.[0].modifier[3].arg[0].value.then", fallback: 0) : __designTimeInteger("#33113.[1].[5].property.[0].[0].arg[0].value.[2].arg[1].value.[0].modifier[3].arg[0].value.else", fallback: 20))
                 
                 HStack {
                     Rectangle()
@@ -138,7 +138,7 @@ extension UserCardView {
                 .padding(.top, __designTimeInteger("#33113.[1].[5].property.[0].[0].arg[0].value.[2].arg[1].value.[2].modifier[0].arg[1].value", fallback: 10))
                 .padding(.horizontal)
                 
-                if !isFullScreen {
+                if !appState.isFullScreen {
                     VStack {
                         HStack {
                             if offset.width > 0 {
@@ -164,7 +164,7 @@ extension UserCardView {
             .gesture(
                 DragGesture()
                     .onChanged { value in
-                        if !isFullScreen {
+                        if !appState.isFullScreen {
                             withAnimation(.easeOut(duration: __designTimeFloat("#33113.[1].[5].property.[0].[0].arg[0].value.[2].modifier[3].arg[0].value.modifier[0].arg[0].value.[0].[0].[0].arg[0].value.arg[0].value", fallback: 0.2))) {
                                 self.offset = value.translation
                             }
@@ -172,7 +172,7 @@ extension UserCardView {
                         
                     }
                     .onEnded { value in
-                        if !isFullScreen {
+                        if !appState.isFullScreen {
                             withAnimation(.easeOut(duration: __designTimeFloat("#33113.[1].[5].property.[0].[0].arg[0].value.[2].modifier[3].arg[0].value.modifier[1].arg[0].value.[0].[0].[0].arg[0].value.arg[0].value", fallback: 0.2))) {
                                 let screenCutoff = frameWidth / __designTimeInteger("#33113.[1].[5].property.[0].[0].arg[0].value.[2].modifier[3].arg[0].value.modifier[1].arg[0].value.[0].[0].[0].arg[1].value.[0].value.[0]", fallback: 2) * __designTimeFloat("#33113.[1].[5].property.[0].[0].arg[0].value.[2].modifier[3].arg[0].value.modifier[1].arg[0].value.[0].[0].[0].arg[1].value.[0].value.[1]", fallback: 0.8)
                                 let translation = value.translation.width
@@ -197,6 +197,7 @@ extension UserCardView {
 import struct TanTan.UserCardView
 #Preview {
     UserCardView(userCard: UserCard(name: "Jame", age: 23, place: "NY", zodiac: "Cancer", photos: ["User1", "User2"]))
+        .environmentObject(AppState())
 }
 
 

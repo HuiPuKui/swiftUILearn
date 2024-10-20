@@ -10,9 +10,14 @@ import SwiftUI
 
 extension HomeScreen {
     @_dynamicReplacement(for: body) private var __preview__body: some View {
-        #sourceLocation(file: "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/TanTan/HomeScreen.swift", line: 15)
+        #sourceLocation(file: "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/TanTan/Core/Home/HomeScreen.swift", line: 16)
         if viewModel.hasMoreCard {
-            CardContainerView(viewModel: viewModel)
+            ZStack {
+                ForEach(viewModel.displayingCard.reversed()) { card in
+                    CardContainerView(viewModel: viewModel, card: card)
+                        .environmentObject(appState)
+                }
+            }
         } else {
             NoResultView()
         }
@@ -24,6 +29,7 @@ extension HomeScreen {
 import struct TanTan.HomeScreen
 #Preview {
     HomeScreen()
+        .environmentObject(AppState())
 }
 
 
