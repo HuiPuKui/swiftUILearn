@@ -9,6 +9,7 @@ import SwiftUI
 
 struct CardDetailView: View {
     @EnvironmentObject var appState: AppState
+    var namespace: Namespace.ID
     var card: UserCard
     var body: some View {
         let screen = UIScreen.main.bounds
@@ -16,6 +17,8 @@ struct CardDetailView: View {
             ScrollView(showsIndicators: false) {
                 VStack(spacing: 0) {
                     UserCardView(userCard: card)
+                        .animation(.easeOut(duration: 0.1))
+                        .matchedGeometryEffect(id: card.id, in: namespace)
                         .environmentObject(appState)
                         .frame(width: screen.width, height: screen.height * 0.7)
                     HStack {
@@ -102,7 +105,10 @@ struct CardDetailView: View {
     }
 }
 
-#Preview {
-    CardDetailView(card: .init(name: "Jame", age: 23, place: "New Youk", zodiac: "Cancer", photos: ["User1"]))
-        .environmentObject(AppState(isFullScreen: true))
+struct CardDetailView_Previews: PreviewProvider {
+    @Namespace static var namespace: Namespace.ID
+    static var previews: some View {
+        CardDetailView(namespace: namespace, card: .init(name: "Jame", age: 23, place: "New Youk", zodiac: "Cancer", photos: ["User1"]))
+            .environmentObject(AppState(isFullScreen: true))
+    }
 }
