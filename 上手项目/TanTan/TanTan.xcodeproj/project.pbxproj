@@ -23,6 +23,10 @@
 		326CD9592CC4F7EB00794409 /* CardDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326CD9582CC4F7EB00794409 /* CardDetailView.swift */; };
 		326CD9752CC5148300794409 /* PickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326CD9742CC5148300794409 /* PickView.swift */; };
 		326CD9772CC5188200794409 /* PickListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326CD9762CC5188200794409 /* PickListView.swift */; };
+		326CD9B52CC6A90400794409 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326CD9B42CC6A90400794409 /* User.swift */; };
+		326CD9B72CC6A96A00794409 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326CD9B62CC6A96A00794409 /* Message.swift */; };
+		326CD9BA2CC6AA3600794409 /* MessageScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326CD9B92CC6AA3600794409 /* MessageScreen.swift */; };
+		326CD9BD2CC6AA6F00794409 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326CD9BC2CC6AA6F00794409 /* MessageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +47,10 @@
 		326CD9582CC4F7EB00794409 /* CardDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetailView.swift; sourceTree = "<group>"; };
 		326CD9742CC5148300794409 /* PickView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickView.swift; sourceTree = "<group>"; };
 		326CD9762CC5188200794409 /* PickListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickListView.swift; sourceTree = "<group>"; };
+		326CD9B42CC6A90400794409 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		326CD9B62CC6A96A00794409 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		326CD9B92CC6AA3600794409 /* MessageScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageScreen.swift; sourceTree = "<group>"; };
+		326CD9BC2CC6AA6F00794409 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,7 @@
 		326CD9532CC4F68700794409 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				326CD9B82CC6AA1E00794409 /* Message */,
 				326CD9542CC4F69C00794409 /* Home */,
 			);
 			path = Core;
@@ -139,8 +148,27 @@
 			isa = PBXGroup;
 			children = (
 				32286E222CC162B0008215B7 /* UserCard.swift */,
+				326CD9B42CC6A90400794409 /* User.swift */,
+				326CD9B62CC6A96A00794409 /* Message.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		326CD9B82CC6AA1E00794409 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				326CD9BB2CC6AA4E00794409 /* Component */,
+				326CD9B92CC6AA3600794409 /* MessageScreen.swift */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		326CD9BB2CC6AA4E00794409 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				326CD9BC2CC6AA6F00794409 /* MessageView.swift */,
+			);
+			path = Component;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,10 +249,14 @@
 				32286E272CC1633E008215B7 /* HomeViewModel.swift in Sources */,
 				32286E252CC1630C008215B7 /* HomeScreen.swift in Sources */,
 				326CD9772CC5188200794409 /* PickListView.swift in Sources */,
+				326CD9B52CC6A90400794409 /* User.swift in Sources */,
+				326CD9BA2CC6AA3600794409 /* MessageScreen.swift in Sources */,
 				3243E9E32CC0310500ACB2B4 /* ContentView.swift in Sources */,
 				32286E232CC162B0008215B7 /* UserCard.swift in Sources */,
+				326CD9BD2CC6AA6F00794409 /* MessageView.swift in Sources */,
 				326CD9522CC4F16B00794409 /* NoResultView.swift in Sources */,
 				3243E9E12CC0310500ACB2B4 /* TanTanApp.swift in Sources */,
+				326CD9B72CC6A96A00794409 /* Message.swift in Sources */,
 				32286E472CC178F5008215B7 /* View+Extension.swift in Sources */,
 				32286E292CC1652B008215B7 /* UserCardView.swift in Sources */,
 			);
