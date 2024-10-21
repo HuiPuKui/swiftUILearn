@@ -18,6 +18,6 @@ struct User: Hashable {
 
 extension User {
     static let Me = User(name: "UserSent", photo: "User1")
-    static let Others = User(name: "UserReceived", photo: "User2")
-    static let Others2 = User(name: "UserReceived", photo: "User3")
+    static let Others = User(name: "User2", photo: "User2")
+    static let Others2 = User(name: "User3", photo: "User3")
 }

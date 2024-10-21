@@ -41,12 +41,17 @@ struct MessageListScreen: View {
                         )
                         .padding(.horizontal, 15)
                         .onTapGesture {
-                            isEditing = true
+                            withAnimation(.easeIn(duration: 0.25)) {
+                                isEditing = true
+                            }
                         }
                     
                     if isEditing {
                         Button {
-                            isEditing = false
+                            withAnimation(.easeIn(duration: 0.25)) {
+                                isEditing = false
+                            }
+                            
                             searchText = ""
                             endEditing(true)
                         } label: {
@@ -58,13 +63,15 @@ struct MessageListScreen: View {
                 }
                 
                 VStack {
-                    ForEach(viewModel.messagePreviews, id: \.self) { preview in
+                    ForEach(viewModel.messagePreviews.filter { searchText.isEmpty ? true : displayPreview($0) }, id: \.self) { preview in
                         NavigationLink(destination: ChatView(user: preview.user)) {
                             MessageListRowView(messagePreview: preview)
                                 .padding(.horizontal, 10)
                                 .padding(.vertical, 5)
                         }
                         .buttonStyle(PlainButtonStyle())
+                        .animation(.easeIn(duration: 0.25))
+                        .transition(.slide)
                     }
                 }
                 Spacer()
@@ -72,6 +79,13 @@ struct MessageListScreen: View {
             .navigationTitle("")
             .navigationBarHidden(true)
         }
+    }
+    
+    func displayPreview(_ preview: MessagePreview) -> Bool {
+        if preview.user.name.contains(searchText) { return true }
+        
+        if preview.lastMessage.contains(searchText) { return true }
+        return false
     }
 }
 

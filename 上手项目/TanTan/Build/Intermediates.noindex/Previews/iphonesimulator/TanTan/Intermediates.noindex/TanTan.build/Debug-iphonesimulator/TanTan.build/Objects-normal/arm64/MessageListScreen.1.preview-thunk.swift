@@ -9,6 +9,18 @@ import protocol SwiftUI.View
 import SwiftUI
 
 extension MessageListScreen {
+    @_dynamicReplacement(for: displayPreview(_:)) private func __preview__displayPreview(_ preview: MessagePreview) -> Bool {
+        #sourceLocation(file: "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/TanTan/Core/Message/MessageListScreen.swift", line: 85)
+        if preview.user.name.contains(searchText) { return __designTimeBoolean("#134243.[1].[4].[0].[0].[0]", fallback: true) }
+        
+        if preview.lastMessage.contains(searchText) { return __designTimeBoolean("#134243.[1].[4].[1].[0].[0]", fallback: true) }
+        return __designTimeBoolean("#134243.[1].[4].[2]", fallback: false)
+    
+#sourceLocation()
+    }
+}
+
+extension MessageListScreen {
     @_dynamicReplacement(for: body) private var __preview__body: some View {
         #sourceLocation(file: "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/TanTan/Core/Message/MessageListScreen.swift", line: 17)
         NavigationStack {
@@ -38,12 +50,17 @@ extension MessageListScreen {
                         )
                         .padding(.horizontal, __designTimeInteger("#134243.[1].[3].property.[0].[0].arg[0].value.[0].arg[0].value.[1].arg[1].value.[0].modifier[6].arg[1].value", fallback: 15))
                         .onTapGesture {
-                            isEditing = __designTimeBoolean("#134243.[1].[3].property.[0].[0].arg[0].value.[0].arg[0].value.[1].arg[1].value.[0].modifier[7].arg[0].value.[0].[0]", fallback: true)
+                            withAnimation(.easeIn(duration: __designTimeFloat("#134243.[1].[3].property.[0].[0].arg[0].value.[0].arg[0].value.[1].arg[1].value.[0].modifier[7].arg[0].value.[0].arg[0].value.arg[0].value", fallback: 0.25))) {
+                                isEditing = __designTimeBoolean("#134243.[1].[3].property.[0].[0].arg[0].value.[0].arg[0].value.[1].arg[1].value.[0].modifier[7].arg[0].value.[0].arg[1].value.[0].[0]", fallback: true)
+                            }
                         }
                     
                     if isEditing {
                         Button {
-                            isEditing = __designTimeBoolean("#134243.[1].[3].property.[0].[0].arg[0].value.[0].arg[0].value.[1].arg[1].value.[1].[0].[0].arg[0].value.[0].[0]", fallback: false)
+                            withAnimation(.easeIn(duration: __designTimeFloat("#134243.[1].[3].property.[0].[0].arg[0].value.[0].arg[0].value.[1].arg[1].value.[1].[0].[0].arg[0].value.[0].arg[0].value.arg[0].value", fallback: 0.25))) {
+                                isEditing = __designTimeBoolean("#134243.[1].[3].property.[0].[0].arg[0].value.[0].arg[0].value.[1].arg[1].value.[1].[0].[0].arg[0].value.[0].arg[1].value.[0].[0]", fallback: false)
+                            }
+                            
                             searchText = __designTimeString("#134243.[1].[3].property.[0].[0].arg[0].value.[0].arg[0].value.[1].arg[1].value.[1].[0].[0].arg[0].value.[1].[0]", fallback: "")
                             endEditing(__designTimeBoolean("#134243.[1].[3].property.[0].[0].arg[0].value.[0].arg[0].value.[1].arg[1].value.[1].[0].[0].arg[0].value.[2].arg[0].value", fallback: true))
                         } label: {
@@ -55,13 +72,15 @@ extension MessageListScreen {
                 }
                 
                 VStack {
-                    ForEach(viewModel.messagePreviews, id: \.self) { preview in
+                    ForEach(viewModel.messagePreviews.filter { searchText.isEmpty ? __designTimeBoolean("#134243.[1].[3].property.[0].[0].arg[0].value.[0].arg[0].value.[2].arg[0].value.[0].arg[0].value.modifier[0].arg[0].value.[0].then", fallback: true) : displayPreview($0) }, id: \.self) { preview in
                         NavigationLink(destination: ChatView(user: preview.user)) {
                             MessageListRowView(messagePreview: preview)
                                 .padding(.horizontal, __designTimeInteger("#134243.[1].[3].property.[0].[0].arg[0].value.[0].arg[0].value.[2].arg[0].value.[0].arg[2].value.[0].arg[1].value.[0].modifier[0].arg[1].value", fallback: 10))
                                 .padding(.vertical, __designTimeInteger("#134243.[1].[3].property.[0].[0].arg[0].value.[0].arg[0].value.[2].arg[0].value.[0].arg[2].value.[0].arg[1].value.[0].modifier[1].arg[1].value", fallback: 5))
                         }
                         .buttonStyle(PlainButtonStyle())
+                        .animation(.easeIn(duration: __designTimeFloat("#134243.[1].[3].property.[0].[0].arg[0].value.[0].arg[0].value.[2].arg[0].value.[0].arg[2].value.[0].modifier[1].arg[0].value.arg[0].value", fallback: 0.25)))
+                        .transition(.slide)
                     }
                 }
                 Spacer()
