@@ -73,6 +73,8 @@ struct ChatView: View {
         .onChange(of: chatManager.messages.count, perform: { newValue in 
             scrollToBottom()
         })
+        .navigationTitle("")
+        .navigationBarHidden(true)
     }
     
     func sendMessage() {

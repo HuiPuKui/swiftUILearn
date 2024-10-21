@@ -10,7 +10,7 @@ import SwiftUI
 
 extension ChatView {
     @_dynamicReplacement(for: scrollToBottom()) private func __preview__scrollToBottom() {
-        #sourceLocation(file: "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/TanTan/Core/Message/Component/ChatView.swift", line: 84)
+        #sourceLocation(file: "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/TanTan/Core/Message/Component/ChatView.swift", line: 86)
         withAnimation {
             scrollProxy?.scrollTo(chatManager.messages.last?.id, anchor: .bottom)
         }
@@ -21,7 +21,7 @@ extension ChatView {
 
 extension ChatView {
     @_dynamicReplacement(for: sendMessage()) private func __preview__sendMessage() {
-        #sourceLocation(file: "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/TanTan/Core/Message/Component/ChatView.swift", line: 79)
+        #sourceLocation(file: "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/TanTan/Core/Message/Component/ChatView.swift", line: 81)
         chatManager.sendMessage(Message(content: typingMessage))
         typingMessage = __designTimeString("#101691.[1].[6].[1].[0]", fallback: "")
     
@@ -88,6 +88,8 @@ extension ChatView {
         .onChange(of: chatManager.messages.count, perform: { newValue in 
             scrollToBottom()
         })
+        .navigationTitle(__designTimeString("#101691.[1].[5].property.[0].[0].modifier[2].arg[0].value", fallback: ""))
+        .navigationBarHidden(__designTimeBoolean("#101691.[1].[5].property.[0].[0].modifier[3].arg[0].value", fallback: true))
     
 #sourceLocation()
     }

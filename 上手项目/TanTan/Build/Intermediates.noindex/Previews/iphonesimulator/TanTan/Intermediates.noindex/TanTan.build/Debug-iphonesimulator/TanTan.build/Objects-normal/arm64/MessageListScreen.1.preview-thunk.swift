@@ -54,7 +54,16 @@ extension MessageListScreen {
                     }
                 }
                 
-                Text(__designTimeString("#134243.[1].[3].property.[0].[0].arg[0].value.[0].arg[0].value.[2].arg[0].value", fallback: "Content"))
+                VStack {
+                    ForEach(viewModel.messagePreviews, id: \.self) { preview in
+                        NavigationLink(destination: ChatView(user: preview.user)) {
+                            MessageListRowView(messagePreview: preview)
+                                .padding(.horizontal, __designTimeInteger("#134243.[1].[3].property.[0].[0].arg[0].value.[0].arg[0].value.[2].arg[0].value.[0].arg[2].value.[0].arg[1].value.[0].modifier[0].arg[1].value", fallback: 10))
+                                .padding(.vertical, __designTimeInteger("#134243.[1].[3].property.[0].[0].arg[0].value.[0].arg[0].value.[2].arg[0].value.[0].arg[2].value.[0].arg[1].value.[0].modifier[1].arg[1].value", fallback: 5))
+                        }
+                        .buttonStyle(PlainButtonStyle())
+                    }
+                }
                 Spacer()
             }
             .navigationTitle(__designTimeString("#134243.[1].[3].property.[0].[0].arg[0].value.[0].modifier[0].arg[0].value", fallback: ""))

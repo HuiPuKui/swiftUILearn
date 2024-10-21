@@ -57,7 +57,16 @@ struct MessageListScreen: View {
                     }
                 }
                 
-                Text("Content")
+                VStack {
+                    ForEach(viewModel.messagePreviews, id: \.self) { preview in
+                        NavigationLink(destination: ChatView(user: preview.user)) {
+                            MessageListRowView(messagePreview: preview)
+                                .padding(.horizontal, 10)
+                                .padding(.vertical, 5)
+                        }
+                        .buttonStyle(PlainButtonStyle())
+                    }
+                }
                 Spacer()
             }
             .navigationTitle("")

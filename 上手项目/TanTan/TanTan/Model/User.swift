@@ -7,7 +7,11 @@
 
 import Foundation
 
-struct User {
+struct User: Hashable {
+    static func == (lhs: User, rhs: User) -> Bool {
+        lhs.name == rhs.name && lhs.photo == rhs.photo
+    }
+    
     var name: String
     var photo: String
 }
