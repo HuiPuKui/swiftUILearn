@@ -10,6 +10,7 @@ import SwiftUI
 struct ChatView: View {
     @ObservedObject var chatManager: ChatManager
     @State var typingMessage: String = ""
+    @State var scrollProxy: ScrollViewProxy? = nil
     var user: User
     init(user: User) {
         self.user = user
@@ -20,12 +21,17 @@ struct ChatView: View {
             VStack {
                 Spacer(minLength: 80)
                 ScrollView(.vertical, showsIndicators: false) {
-                    LazyVStack {
-                        ForEach(chatManager.messages.indices, id: \.self) { index in
-                            let message = chatManager.messages[index] as! Message
-                            MessageView(message: message)
-                                .animation(.easeIn)
-                                .transition(.move(edge: .trailing))
+                    ScrollViewReader { proxy in
+                        VStack {
+                            ForEach(chatManager.messages, id: \.id) { message in
+                                MessageView(message: message)
+                                    .animation(.easeIn)
+                                    .transition(.move(edge: .trailing))
+                                    .id(message.id)
+                            }
+                        }
+                        .onAppear {
+                            scrollProxy = proxy
                         }
                     }
                 }
@@ -59,11 +65,25 @@ struct ChatView: View {
                 
             }
         }
+        .onChange(of: chatManager.keyboardIsShowing, perform: { newValue in
+            if newValue {
+                scrollToBottom()
+            }
+        })
+        .onChange(of: chatManager.messages.count, perform: { newValue in 
+            scrollToBottom()
+        })
     }
     
     func sendMessage() {
         chatManager.sendMessage(Message(content: typingMessage))
         typingMessage = ""
+    }
+    
+    func scrollToBottom() {
+        withAnimation {
+            scrollProxy?.scrollTo(chatManager.messages.last?.id, anchor: .bottom)
+        }
     }
 }
 
