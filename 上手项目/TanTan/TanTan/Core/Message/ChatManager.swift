@@ -10,9 +10,14 @@ import Foundation
 class ChatManager: ObservableObject {
     @Published var messages = []
     var user: User
+    
     init(user: User) {
         self.user = user
         loadMessages()
+    }
+    
+    func sendMessage(_ message: Message) {
+        messages.append(message)
     }
     
     // mock network request
