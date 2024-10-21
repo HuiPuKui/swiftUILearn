@@ -31,6 +31,9 @@
 		326CD9C12CC6AC7A00794409 /* ChatManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326CD9C02CC6AC7A00794409 /* ChatManager.swift */; };
 		326CD9C32CC6AE6800794409 /* ChatViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326CD9C22CC6AE6800794409 /* ChatViewHeader.swift */; };
 		326CD9C52CC6AF9B00794409 /* CircleAvator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326CD9C42CC6AF9B00794409 /* CircleAvator.swift */; };
+		326CD9C72CC6BC4200794409 /* MessageListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326CD9C62CC6BC4200794409 /* MessageListScreen.swift */; };
+		326CD9C92CC6BC6E00794409 /* MessageListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326CD9C82CC6BC6E00794409 /* MessageListViewModel.swift */; };
+		326CD9CB2CC6BC9D00794409 /* MessagePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326CD9CA2CC6BC9D00794409 /* MessagePreview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +62,9 @@
 		326CD9C02CC6AC7A00794409 /* ChatManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatManager.swift; sourceTree = "<group>"; };
 		326CD9C22CC6AE6800794409 /* ChatViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewHeader.swift; sourceTree = "<group>"; };
 		326CD9C42CC6AF9B00794409 /* CircleAvator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleAvator.swift; sourceTree = "<group>"; };
+		326CD9C62CC6BC4200794409 /* MessageListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageListScreen.swift; sourceTree = "<group>"; };
+		326CD9C82CC6BC6E00794409 /* MessageListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageListViewModel.swift; sourceTree = "<group>"; };
+		326CD9CA2CC6BC9D00794409 /* MessagePreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagePreview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +165,7 @@
 				32286E222CC162B0008215B7 /* UserCard.swift */,
 				326CD9B42CC6A90400794409 /* User.swift */,
 				326CD9B62CC6A96A00794409 /* Message.swift */,
+				326CD9CA2CC6BC9D00794409 /* MessagePreview.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -169,6 +176,8 @@
 				326CD9BB2CC6AA4E00794409 /* Component */,
 				326CD9B92CC6AA3600794409 /* MessageScreen.swift */,
 				326CD9C02CC6AC7A00794409 /* ChatManager.swift */,
+				326CD9C62CC6BC4200794409 /* MessageListScreen.swift */,
+				326CD9C82CC6BC6E00794409 /* MessageListViewModel.swift */,
 			);
 			path = Message;
 			sourceTree = "<group>";
@@ -255,9 +264,12 @@
 			files = (
 				326CD9BF2CC6AC5900794409 /* ChatView.swift in Sources */,
 				32286E452CC17627008215B7 /* RoundButton.swift in Sources */,
+				326CD9C92CC6BC6E00794409 /* MessageListViewModel.swift in Sources */,
 				3243E9EF2CC0373300ACB2B4 /* AppState.swift in Sources */,
 				326CD9752CC5148300794409 /* PickView.swift in Sources */,
 				326CD9502CC4E45400794409 /* CardContainerView.swift in Sources */,
+				326CD9CB2CC6BC9D00794409 /* MessagePreview.swift in Sources */,
+				326CD9C72CC6BC4200794409 /* MessageListScreen.swift in Sources */,
 				326CD9592CC4F7EB00794409 /* CardDetailView.swift in Sources */,
 				32286E272CC1633E008215B7 /* HomeViewModel.swift in Sources */,
 				326CD9C32CC6AE6800794409 /* ChatViewHeader.swift in Sources */,

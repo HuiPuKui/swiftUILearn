@@ -45,6 +45,16 @@
     "swift-dependencies" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/Build/Intermediates.noindex/Previews/iphonesimulator/TanTan/Intermediates.noindex/TanTan.build/Debug-iphonesimulator/TanTan.build/Objects-normal/arm64/CardDetailView.swiftdeps",
     "swiftmodule" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/Build/Intermediates.noindex/Previews/iphonesimulator/TanTan/Intermediates.noindex/TanTan.build/Debug-iphonesimulator/TanTan.build/Objects-normal/arm64/CardDetailView~partial.swiftmodule"
   },
+  "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/TanTan/Component/CircleAvator.swift" : {
+    "const-values" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/Build/Intermediates.noindex/Previews/iphonesimulator/TanTan/Intermediates.noindex/TanTan.build/Debug-iphonesimulator/TanTan.build/Objects-normal/arm64/CircleAvator.swiftconstvalues",
+    "dependencies" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/Build/Intermediates.noindex/Previews/iphonesimulator/TanTan/Intermediates.noindex/TanTan.build/Debug-iphonesimulator/TanTan.build/Objects-normal/arm64/CircleAvator.d",
+    "diagnostics" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/Build/Intermediates.noindex/Previews/iphonesimulator/TanTan/Intermediates.noindex/TanTan.build/Debug-iphonesimulator/TanTan.build/Objects-normal/arm64/CircleAvator.dia",
+    "index-unit-output-path" : "/TanTan.build/Debug-iphonesimulator/TanTan.build/Objects-normal/arm64/CircleAvator.o",
+    "llvm-bc" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/Build/Intermediates.noindex/Previews/iphonesimulator/TanTan/Intermediates.noindex/TanTan.build/Debug-iphonesimulator/TanTan.build/Objects-normal/arm64/CircleAvator.bc",
+    "object" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/Build/Intermediates.noindex/Previews/iphonesimulator/TanTan/Intermediates.noindex/TanTan.build/Debug-iphonesimulator/TanTan.build/Objects-normal/arm64/CircleAvator.o",
+    "swift-dependencies" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/Build/Intermediates.noindex/Previews/iphonesimulator/TanTan/Intermediates.noindex/TanTan.build/Debug-iphonesimulator/TanTan.build/Objects-normal/arm64/CircleAvator.swiftdeps",
+    "swiftmodule" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/Build/Intermediates.noindex/Previews/iphonesimulator/TanTan/Intermediates.noindex/TanTan.build/Debug-iphonesimulator/TanTan.build/Objects-normal/arm64/CircleAvator~partial.swiftmodule"
+  },
   "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/TanTan/Component/NoResultView.swift" : {
     "const-values" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/Build/Intermediates.noindex/Previews/iphonesimulator/TanTan/Intermediates.noindex/TanTan.build/Debug-iphonesimulator/TanTan.build/Objects-normal/arm64/NoResultView.swiftconstvalues",
     "dependencies" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/Build/Intermediates.noindex/Previews/iphonesimulator/TanTan/Intermediates.noindex/TanTan.build/Debug-iphonesimulator/TanTan.build/Objects-normal/arm64/NoResultView.d",
@@ -125,6 +135,16 @@
     "swift-dependencies" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/Build/Intermediates.noindex/Previews/iphonesimulator/TanTan/Intermediates.noindex/TanTan.build/Debug-iphonesimulator/TanTan.build/Objects-normal/arm64/HomeViewModel.swiftdeps",
     "swiftmodule" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/Build/Intermediates.noindex/Previews/iphonesimulator/TanTan/Intermediates.noindex/TanTan.build/Debug-iphonesimulator/TanTan.build/Objects-normal/arm64/HomeViewModel~partial.swiftmodule"
   },
+  "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/TanTan/Core/Message/ChatManager.swift" : {
+    "const-values" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/Build/Intermediates.noindex/Previews/iphonesimulator/TanTan/Intermediates.noindex/TanTan.build/Debug-iphonesimulator/TanTan.build/Objects-normal/arm64/ChatManager.swiftconstvalues",
+    "dependencies" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/Build/Intermediates.noindex/Previews/iphonesimulator/TanTan/Intermediates.noindex/TanTan.build/Debug-iphonesimulator/TanTan.build/Objects-normal/arm64/ChatManager.d",
+    "diagnostics" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/Build/Intermediates.noindex/Previews/iphonesimulator/TanTan/Intermediates.noindex/TanTan.build/Debug-iphonesimulator/TanTan.build/Objects-normal/arm64/ChatManager.dia",
+    "index-unit-output-path" : "/TanTan.build/Debug-iphonesimulator/TanTan.build/Objects-normal/arm64/ChatManager.o",
+    "llvm-bc" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/Build/Intermediates.noindex/Previews/iphonesimulator/TanTan/Intermediates.noindex/TanTan.build/Debug-iphonesimulator/TanTan.build/Objects-normal/arm64/ChatManager.bc",
+    "object" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/Build/Intermediates.noindex/Previews/iphonesimulator/TanTan/Intermediates.noindex/TanTan.build/Debug-iphonesimulator/TanTan.build/Objects-normal/arm64/ChatManager.o",
+    "swift-dependencies" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/Build/Intermediates.noindex/Previews/iphonesimulator/TanTan/Intermediates.noindex/TanTan.build/Debug-iphonesimulator/TanTan.build/Objects-normal/arm64/ChatManager.swiftdeps",
+    "swiftmodule" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/Build/Intermediates.noindex/Previews/iphonesimulator/TanTan/Intermediates.noindex/TanTan.build/Debug-iphonesimulator/TanTan.build/Objects-normal/arm64/ChatManager~partial.swiftmodule"
+  },
   "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/TanTan/Core/Message/Component/ChatView.swift" : {
     "const-values" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/Build/Intermediates.noindex/Previews/iphonesimulator/TanTan/Intermediates.noindex/TanTan.build/Debug-iphonesimulator/TanTan.build/Objects-normal/arm64/ChatView.swiftconstvalues",
     "dependencies" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/Build/Intermediates.noindex/Previews/iphonesimulator/TanTan/Intermediates.noindex/TanTan.build/Debug-iphonesimulator/TanTan.build/Objects-normal/arm64/ChatView.d",
@@ -135,6 +155,16 @@
     "swift-dependencies" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/Build/Intermediates.noindex/Previews/iphonesimulator/TanTan/Intermediates.noindex/TanTan.build/Debug-iphonesimulator/TanTan.build/Objects-normal/arm64/ChatView.swiftdeps",
     "swiftmodule" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/Build/Intermediates.noindex/Previews/iphonesimulator/TanTan/Intermediates.noindex/TanTan.build/Debug-iphonesimulator/TanTan.build/Objects-normal/arm64/ChatView~partial.swiftmodule"
   },
+  "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/TanTan/Core/Message/Component/ChatViewHeader.swift" : {
+    "const-values" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/Build/Intermediates.noindex/Previews/iphonesimulator/TanTan/Intermediates.noindex/TanTan.build/Debug-iphonesimulator/TanTan.build/Objects-normal/arm64/ChatViewHeader.swiftconstvalues",
+    "dependencies" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/Build/Intermediates.noindex/Previews/iphonesimulator/TanTan/Intermediates.noindex/TanTan.build/Debug-iphonesimulator/TanTan.build/Objects-normal/arm64/ChatViewHeader.d",
+    "diagnostics" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/Build/Intermediates.noindex/Previews/iphonesimulator/TanTan/Intermediates.noindex/TanTan.build/Debug-iphonesimulator/TanTan.build/Objects-normal/arm64/ChatViewHeader.dia",
+    "index-unit-output-path" : "/TanTan.build/Debug-iphonesimulator/TanTan.build/Objects-normal/arm64/ChatViewHeader.o",
+    "llvm-bc" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/Build/Intermediates.noindex/Previews/iphonesimulator/TanTan/Intermediates.noindex/TanTan.build/Debug-iphonesimulator/TanTan.build/Objects-normal/arm64/ChatViewHeader.bc",
+    "object" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/Build/Intermediates.noindex/Previews/iphonesimulator/TanTan/Intermediates.noindex/TanTan.build/Debug-iphonesimulator/TanTan.build/Objects-normal/arm64/ChatViewHeader.o",
+    "swift-dependencies" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/Build/Intermediates.noindex/Previews/iphonesimulator/TanTan/Intermediates.noindex/TanTan.build/Debug-iphonesimulator/TanTan.build/Objects-normal/arm64/ChatViewHeader.swiftdeps",
+    "swiftmodule" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/Build/Intermediates.noindex/Previews/iphonesimulator/TanTan/Intermediates.noindex/TanTan.build/Debug-iphonesimulator/TanTan.build/Objects-normal/arm64/ChatViewHeader~partial.swiftmodule"
+  },
   "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/TanTan/Core/Message/Component/MessageView.swift" : {
     "const-values" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/Build/Intermediates.noindex/Previews/iphonesimulator/TanTan/Intermediates.noindex/TanTan.build/Debug-iphonesimulator/TanTan.build/Objects-normal/arm64/MessageView.swiftconstvalues",
     "dependencies" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/Build/Intermediates.noindex/Previews/iphonesimulator/TanTan/Intermediates.noindex/TanTan.build/Debug-iphonesimulator/TanTan.build/Objects-normal/arm64/MessageView.d",
@@ -144,6 +174,26 @@
     "object" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/Build/Intermediates.noindex/Previews/iphonesimulator/TanTan/Intermediates.noindex/TanTan.build/Debug-iphonesimulator/TanTan.build/Objects-normal/arm64/MessageView.o",
     "swift-dependencies" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/Build/Intermediates.noindex/Previews/iphonesimulator/TanTan/Intermediates.noindex/TanTan.build/Debug-iphonesimulator/TanTan.build/Objects-normal/arm64/MessageView.swiftdeps",
     "swiftmodule" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/Build/Intermediates.noindex/Previews/iphonesimulator/TanTan/Intermediates.noindex/TanTan.build/Debug-iphonesimulator/TanTan.build/Objects-normal/arm64/MessageView~partial.swiftmodule"
+  },
+  "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/TanTan/Core/Message/MessageListScreen.swift" : {
+    "const-values" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/Build/Intermediates.noindex/Previews/iphonesimulator/TanTan/Intermediates.noindex/TanTan.build/Debug-iphonesimulator/TanTan.build/Objects-normal/arm64/MessageListScreen.swiftconstvalues",
+    "dependencies" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/Build/Intermediates.noindex/Previews/iphonesimulator/TanTan/Intermediates.noindex/TanTan.build/Debug-iphonesimulator/TanTan.build/Objects-normal/arm64/MessageListScreen.d",
+    "diagnostics" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/Build/Intermediates.noindex/Previews/iphonesimulator/TanTan/Intermediates.noindex/TanTan.build/Debug-iphonesimulator/TanTan.build/Objects-normal/arm64/MessageListScreen.dia",
+    "index-unit-output-path" : "/TanTan.build/Debug-iphonesimulator/TanTan.build/Objects-normal/arm64/MessageListScreen.o",
+    "llvm-bc" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/Build/Intermediates.noindex/Previews/iphonesimulator/TanTan/Intermediates.noindex/TanTan.build/Debug-iphonesimulator/TanTan.build/Objects-normal/arm64/MessageListScreen.bc",
+    "object" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/Build/Intermediates.noindex/Previews/iphonesimulator/TanTan/Intermediates.noindex/TanTan.build/Debug-iphonesimulator/TanTan.build/Objects-normal/arm64/MessageListScreen.o",
+    "swift-dependencies" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/Build/Intermediates.noindex/Previews/iphonesimulator/TanTan/Intermediates.noindex/TanTan.build/Debug-iphonesimulator/TanTan.build/Objects-normal/arm64/MessageListScreen.swiftdeps",
+    "swiftmodule" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/Build/Intermediates.noindex/Previews/iphonesimulator/TanTan/Intermediates.noindex/TanTan.build/Debug-iphonesimulator/TanTan.build/Objects-normal/arm64/MessageListScreen~partial.swiftmodule"
+  },
+  "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/TanTan/Core/Message/MessageListViewModel.swift" : {
+    "const-values" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/Build/Intermediates.noindex/Previews/iphonesimulator/TanTan/Intermediates.noindex/TanTan.build/Debug-iphonesimulator/TanTan.build/Objects-normal/arm64/MessageListViewModel.swiftconstvalues",
+    "dependencies" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/Build/Intermediates.noindex/Previews/iphonesimulator/TanTan/Intermediates.noindex/TanTan.build/Debug-iphonesimulator/TanTan.build/Objects-normal/arm64/MessageListViewModel.d",
+    "diagnostics" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/Build/Intermediates.noindex/Previews/iphonesimulator/TanTan/Intermediates.noindex/TanTan.build/Debug-iphonesimulator/TanTan.build/Objects-normal/arm64/MessageListViewModel.dia",
+    "index-unit-output-path" : "/TanTan.build/Debug-iphonesimulator/TanTan.build/Objects-normal/arm64/MessageListViewModel.o",
+    "llvm-bc" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/Build/Intermediates.noindex/Previews/iphonesimulator/TanTan/Intermediates.noindex/TanTan.build/Debug-iphonesimulator/TanTan.build/Objects-normal/arm64/MessageListViewModel.bc",
+    "object" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/Build/Intermediates.noindex/Previews/iphonesimulator/TanTan/Intermediates.noindex/TanTan.build/Debug-iphonesimulator/TanTan.build/Objects-normal/arm64/MessageListViewModel.o",
+    "swift-dependencies" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/Build/Intermediates.noindex/Previews/iphonesimulator/TanTan/Intermediates.noindex/TanTan.build/Debug-iphonesimulator/TanTan.build/Objects-normal/arm64/MessageListViewModel.swiftdeps",
+    "swiftmodule" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/Build/Intermediates.noindex/Previews/iphonesimulator/TanTan/Intermediates.noindex/TanTan.build/Debug-iphonesimulator/TanTan.build/Objects-normal/arm64/MessageListViewModel~partial.swiftmodule"
   },
   "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/TanTan/Core/Message/MessageScreen.swift" : {
     "const-values" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/Build/Intermediates.noindex/Previews/iphonesimulator/TanTan/Intermediates.noindex/TanTan.build/Debug-iphonesimulator/TanTan.build/Objects-normal/arm64/MessageScreen.swiftconstvalues",
@@ -174,6 +224,16 @@
     "object" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/Build/Intermediates.noindex/Previews/iphonesimulator/TanTan/Intermediates.noindex/TanTan.build/Debug-iphonesimulator/TanTan.build/Objects-normal/arm64/Message.o",
     "swift-dependencies" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/Build/Intermediates.noindex/Previews/iphonesimulator/TanTan/Intermediates.noindex/TanTan.build/Debug-iphonesimulator/TanTan.build/Objects-normal/arm64/Message.swiftdeps",
     "swiftmodule" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/Build/Intermediates.noindex/Previews/iphonesimulator/TanTan/Intermediates.noindex/TanTan.build/Debug-iphonesimulator/TanTan.build/Objects-normal/arm64/Message~partial.swiftmodule"
+  },
+  "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/TanTan/Model/MessagePreview.swift" : {
+    "const-values" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/Build/Intermediates.noindex/Previews/iphonesimulator/TanTan/Intermediates.noindex/TanTan.build/Debug-iphonesimulator/TanTan.build/Objects-normal/arm64/MessagePreview.swiftconstvalues",
+    "dependencies" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/Build/Intermediates.noindex/Previews/iphonesimulator/TanTan/Intermediates.noindex/TanTan.build/Debug-iphonesimulator/TanTan.build/Objects-normal/arm64/MessagePreview.d",
+    "diagnostics" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/Build/Intermediates.noindex/Previews/iphonesimulator/TanTan/Intermediates.noindex/TanTan.build/Debug-iphonesimulator/TanTan.build/Objects-normal/arm64/MessagePreview.dia",
+    "index-unit-output-path" : "/TanTan.build/Debug-iphonesimulator/TanTan.build/Objects-normal/arm64/MessagePreview.o",
+    "llvm-bc" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/Build/Intermediates.noindex/Previews/iphonesimulator/TanTan/Intermediates.noindex/TanTan.build/Debug-iphonesimulator/TanTan.build/Objects-normal/arm64/MessagePreview.bc",
+    "object" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/Build/Intermediates.noindex/Previews/iphonesimulator/TanTan/Intermediates.noindex/TanTan.build/Debug-iphonesimulator/TanTan.build/Objects-normal/arm64/MessagePreview.o",
+    "swift-dependencies" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/Build/Intermediates.noindex/Previews/iphonesimulator/TanTan/Intermediates.noindex/TanTan.build/Debug-iphonesimulator/TanTan.build/Objects-normal/arm64/MessagePreview.swiftdeps",
+    "swiftmodule" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/Build/Intermediates.noindex/Previews/iphonesimulator/TanTan/Intermediates.noindex/TanTan.build/Debug-iphonesimulator/TanTan.build/Objects-normal/arm64/MessagePreview~partial.swiftmodule"
   },
   "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/TanTan/Model/User.swift" : {
     "const-values" : "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/Build/Intermediates.noindex/Previews/iphonesimulator/TanTan/Intermediates.noindex/TanTan.build/Debug-iphonesimulator/TanTan.build/Objects-normal/arm64/User.swiftconstvalues",
