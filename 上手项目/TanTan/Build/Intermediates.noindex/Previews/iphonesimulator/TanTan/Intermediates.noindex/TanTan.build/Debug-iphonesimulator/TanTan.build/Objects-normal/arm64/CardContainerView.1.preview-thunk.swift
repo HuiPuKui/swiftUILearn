@@ -44,7 +44,7 @@ extension CardContainerView {
                 }
             }
             .padding(.horizontal, __designTimeInteger("#53507.[1].[4].property.[0].[0].[1].[0].modifier[0].arg[1].value", fallback: 20))
-            .padding(.vertical, __designTimeInteger("#53507.[1].[4].property.[0].[0].[1].[0].modifier[1].arg[1].value", fallback: 50))
+            .padding(.vertical, __designTimeInteger("#53507.[1].[4].property.[0].[0].[1].[0].modifier[1].arg[1].value", fallback: 20))
         }
         
     

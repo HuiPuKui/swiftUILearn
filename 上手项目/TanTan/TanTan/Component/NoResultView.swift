@@ -10,15 +10,7 @@ import SwiftUI
 struct NoResultView: View {
     var body: some View {
         VStack {
-            Image("User1")
-                .resizable()
-                .aspectRatio(contentMode: .fill)
-                .frame(width: 100, height: 100)
-                .cornerRadius(50)
-                .overlay(
-                    Circle().stroke(.white, lineWidth: 5)
-                )
-                .shadow(radius: 1)
+            CircleAvator(photo: "User1", size: 100)
                 .padding(.bottom, 30)
             
             Text("Ops, There's no one left to swipe on! Whey ont try editing your filters?")
