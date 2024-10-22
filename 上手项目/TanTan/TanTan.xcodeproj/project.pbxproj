@@ -35,6 +35,8 @@
 		326CD9C92CC6BC6E00794409 /* MessageListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326CD9C82CC6BC6E00794409 /* MessageListViewModel.swift */; };
 		326CD9CB2CC6BC9D00794409 /* MessagePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326CD9CA2CC6BC9D00794409 /* MessagePreview.swift */; };
 		326CD9CD2CC6C17100794409 /* MessageListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326CD9CC2CC6C17100794409 /* MessageListRowView.swift */; };
+		326F94DA2CC80169003B7BF4 /* ProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326F94D92CC80169003B7BF4 /* ProfileScreen.swift */; };
+		326F94DC2CC80180003B7BF4 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326F94DB2CC80180003B7BF4 /* ProfileViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +69,8 @@
 		326CD9C82CC6BC6E00794409 /* MessageListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageListViewModel.swift; sourceTree = "<group>"; };
 		326CD9CA2CC6BC9D00794409 /* MessagePreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagePreview.swift; sourceTree = "<group>"; };
 		326CD9CC2CC6C17100794409 /* MessageListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageListRowView.swift; sourceTree = "<group>"; };
+		326F94D92CC80169003B7BF4 /* ProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreen.swift; sourceTree = "<group>"; };
+		326F94DB2CC80180003B7BF4 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +127,7 @@
 		326CD9532CC4F68700794409 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				326F94D82CC8014E003B7BF4 /* Profile */,
 				326CD9B82CC6AA1E00794409 /* Message */,
 				326CD9542CC4F69C00794409 /* Home */,
 			);
@@ -193,6 +198,15 @@
 				326CD9CC2CC6C17100794409 /* MessageListRowView.swift */,
 			);
 			path = Component;
+			sourceTree = "<group>";
+		};
+		326F94D82CC8014E003B7BF4 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				326F94D92CC80169003B7BF4 /* ProfileScreen.swift */,
+				326F94DB2CC80180003B7BF4 /* ProfileViewModel.swift */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,6 +285,7 @@
 				3243E9EF2CC0373300ACB2B4 /* AppState.swift in Sources */,
 				326CD9752CC5148300794409 /* PickView.swift in Sources */,
 				326CD9502CC4E45400794409 /* CardContainerView.swift in Sources */,
+				326F94DC2CC80180003B7BF4 /* ProfileViewModel.swift in Sources */,
 				326CD9CB2CC6BC9D00794409 /* MessagePreview.swift in Sources */,
 				326CD9C72CC6BC4200794409 /* MessageListScreen.swift in Sources */,
 				326CD9592CC4F7EB00794409 /* CardDetailView.swift in Sources */,
@@ -287,6 +302,7 @@
 				326CD9C12CC6AC7A00794409 /* ChatManager.swift in Sources */,
 				3243E9E12CC0310500ACB2B4 /* TanTanApp.swift in Sources */,
 				326CD9CD2CC6C17100794409 /* MessageListRowView.swift in Sources */,
+				326F94DA2CC80169003B7BF4 /* ProfileScreen.swift in Sources */,
 				326CD9B72CC6A96A00794409 /* Message.swift in Sources */,
 				32286E472CC178F5008215B7 /* View+Extension.swift in Sources */,
 				326CD9C52CC6AF9B00794409 /* CircleAvator.swift in Sources */,
