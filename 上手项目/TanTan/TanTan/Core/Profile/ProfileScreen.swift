@@ -70,7 +70,11 @@ struct ProfileScreen: View {
             .cornerRadius(12)
             .padding()
             
-            Spacer()
+            ZStack {
+                Color.gray.opacity(0.15)
+                SwipeCard()
+            }
+            .padding(.top, 20)
         }
     }
     

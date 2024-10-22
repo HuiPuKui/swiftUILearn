@@ -37,6 +37,7 @@
 		326CD9CD2CC6C17100794409 /* MessageListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326CD9CC2CC6C17100794409 /* MessageListRowView.swift */; };
 		326F94DA2CC80169003B7BF4 /* ProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326F94D92CC80169003B7BF4 /* ProfileScreen.swift */; };
 		326F94DC2CC80180003B7BF4 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326F94DB2CC80180003B7BF4 /* ProfileViewModel.swift */; };
+		326F94F92CC80C4E003B7BF4 /* SwipeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326F94F82CC80C4E003B7BF4 /* SwipeCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,6 +72,7 @@
 		326CD9CC2CC6C17100794409 /* MessageListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageListRowView.swift; sourceTree = "<group>"; };
 		326F94D92CC80169003B7BF4 /* ProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreen.swift; sourceTree = "<group>"; };
 		326F94DB2CC80180003B7BF4 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		326F94F82CC80C4E003B7BF4 /* SwipeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -203,10 +205,19 @@
 		326F94D82CC8014E003B7BF4 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				326F94F72CC80C39003B7BF4 /* Component */,
 				326F94D92CC80169003B7BF4 /* ProfileScreen.swift */,
 				326F94DB2CC80180003B7BF4 /* ProfileViewModel.swift */,
 			);
 			path = Profile;
+			sourceTree = "<group>";
+		};
+		326F94F72CC80C39003B7BF4 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				326F94F82CC80C4E003B7BF4 /* SwipeCard.swift */,
+			);
+			path = Component;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,6 +297,7 @@
 				326CD9752CC5148300794409 /* PickView.swift in Sources */,
 				326CD9502CC4E45400794409 /* CardContainerView.swift in Sources */,
 				326F94DC2CC80180003B7BF4 /* ProfileViewModel.swift in Sources */,
+				326F94F92CC80C4E003B7BF4 /* SwipeCard.swift in Sources */,
 				326CD9CB2CC6BC9D00794409 /* MessagePreview.swift in Sources */,
 				326CD9C72CC6BC4200794409 /* MessageListScreen.swift in Sources */,
 				326CD9592CC4F7EB00794409 /* CardDetailView.swift in Sources */,

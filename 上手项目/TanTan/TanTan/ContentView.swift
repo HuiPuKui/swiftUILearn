@@ -23,7 +23,7 @@ struct ContentView: View {
                 MessageListScreen()
                     .environmentObject(appState)
             case .profile:
-                Text("Profile")
+                ProfileScreen(user: User.Me)
             }
             
             if !appState.isTabBarHidden {

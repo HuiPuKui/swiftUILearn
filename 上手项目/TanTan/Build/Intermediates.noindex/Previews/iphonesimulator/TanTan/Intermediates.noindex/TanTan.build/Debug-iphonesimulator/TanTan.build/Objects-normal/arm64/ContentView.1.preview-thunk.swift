@@ -44,7 +44,7 @@ extension ContentView {
                 MessageListScreen()
                     .environmentObject(appState)
             case .profile:
-                Text(__designTimeString("#5428.[1].[1].property.[0].[0].arg[0].value.[0].[3].[0].arg[0].value", fallback: "Profile"))
+                ProfileScreen(user: User.Me)
             }
             
             if !appState.isTabBarHidden {

@@ -14,7 +14,7 @@ typealias CustomButton = ProfileScreen.CustomButton
 typealias ImageFromLocal = ProfileScreen.ImageFromLocal
 
     @_dynamicReplacement(for: body) private var __preview__body: some View {
-        #sourceLocation(file: "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/TanTan/Core/Profile/ProfileScreen.swift", line: 105)
+        #sourceLocation(file: "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/TanTan/Core/Profile/ProfileScreen.swift", line: 109)
             Image(uiImage: uiImage)
                 .resizable()
                 .aspectRatio(contentMode: .fill)
@@ -34,7 +34,7 @@ typealias CustomButton = ProfileScreen.CustomButton
 typealias ImageFromLocal = ProfileScreen.ImageFromLocal
 
     @_dynamicReplacement(for: body) private var __preview__body: some View {
-        #sourceLocation(file: "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/TanTan/Core/Profile/ProfileScreen.swift", line: 82)
+        #sourceLocation(file: "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/TanTan/Core/Profile/ProfileScreen.swift", line: 86)
             VStack(spacing: __designTimeInteger("#11652.[2].[3].[3].property.[0].[0].arg[0].value", fallback: 10)) {
                 Button {
                     
@@ -118,7 +118,11 @@ extension ProfileScreen {
             .cornerRadius(__designTimeInteger("#11652.[2].[2].property.[0].[0].arg[1].value.[3].modifier[2].arg[0].value", fallback: 12))
             .padding()
             
-            Spacer()
+            ZStack {
+                Color.gray.opacity(__designTimeFloat("#11652.[2].[2].property.[0].[0].arg[1].value.[4].arg[0].value.[0].modifier[0].arg[0].value", fallback: 0.15))
+                SwipeCard()
+            }
+            .padding(.top, __designTimeInteger("#11652.[2].[2].property.[0].[0].arg[1].value.[4].modifier[0].arg[1].value", fallback: 20))
         }
     
 #sourceLocation()
