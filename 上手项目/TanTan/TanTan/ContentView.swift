@@ -18,7 +18,7 @@ struct ContentView: View {
                 HomeScreen()
                     .environmentObject(appState)
             case .live:
-                Text("Live")
+                LiveScreen()
             case .message:
                 MessageListScreen()
                     .environmentObject(appState)
@@ -35,7 +35,6 @@ struct ContentView: View {
                     createTabItem(tab: .profile, title: "Profile")
                 }
             }
-            
         }
     }
     

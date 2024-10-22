@@ -38,6 +38,8 @@
 		326F94DA2CC80169003B7BF4 /* ProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326F94D92CC80169003B7BF4 /* ProfileScreen.swift */; };
 		326F94DC2CC80180003B7BF4 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326F94DB2CC80180003B7BF4 /* ProfileViewModel.swift */; };
 		326F94F92CC80C4E003B7BF4 /* SwipeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326F94F82CC80C4E003B7BF4 /* SwipeCard.swift */; };
+		326F94FC2CC80F2F003B7BF4 /* LiveViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326F94FB2CC80F2F003B7BF4 /* LiveViewModel.swift */; };
+		326F94FE2CC80F3B003B7BF4 /* LiveScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326F94FD2CC80F3B003B7BF4 /* LiveScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +75,8 @@
 		326F94D92CC80169003B7BF4 /* ProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreen.swift; sourceTree = "<group>"; };
 		326F94DB2CC80180003B7BF4 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
 		326F94F82CC80C4E003B7BF4 /* SwipeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeCard.swift; sourceTree = "<group>"; };
+		326F94FB2CC80F2F003B7BF4 /* LiveViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveViewModel.swift; sourceTree = "<group>"; };
+		326F94FD2CC80F3B003B7BF4 /* LiveScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +133,7 @@
 		326CD9532CC4F68700794409 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				326F94FA2CC80F1D003B7BF4 /* Live */,
 				326F94D82CC8014E003B7BF4 /* Profile */,
 				326CD9B82CC6AA1E00794409 /* Message */,
 				326CD9542CC4F69C00794409 /* Home */,
@@ -220,6 +225,15 @@
 			path = Component;
 			sourceTree = "<group>";
 		};
+		326F94FA2CC80F1D003B7BF4 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				326F94FB2CC80F2F003B7BF4 /* LiveViewModel.swift */,
+				326F94FD2CC80F3B003B7BF4 /* LiveScreen.swift */,
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -302,6 +316,7 @@
 				326CD9C72CC6BC4200794409 /* MessageListScreen.swift in Sources */,
 				326CD9592CC4F7EB00794409 /* CardDetailView.swift in Sources */,
 				32286E272CC1633E008215B7 /* HomeViewModel.swift in Sources */,
+				326F94FC2CC80F2F003B7BF4 /* LiveViewModel.swift in Sources */,
 				326CD9C32CC6AE6800794409 /* ChatViewHeader.swift in Sources */,
 				32286E252CC1630C008215B7 /* HomeScreen.swift in Sources */,
 				326CD9772CC5188200794409 /* PickListView.swift in Sources */,
@@ -319,6 +334,7 @@
 				32286E472CC178F5008215B7 /* View+Extension.swift in Sources */,
 				326CD9C52CC6AF9B00794409 /* CircleAvator.swift in Sources */,
 				32286E292CC1652B008215B7 /* UserCardView.swift in Sources */,
+				326F94FE2CC80F3B003B7BF4 /* LiveScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

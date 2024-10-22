@@ -10,7 +10,7 @@ import SwiftUI
 
 extension ContentView {
     @_dynamicReplacement(for: createTabItem(tab:title:)) private func __preview__createTabItem(tab: TabItem, title: String) -> some View {
-        #sourceLocation(file: "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/TanTan/ContentView.swift", line: 43)
+        #sourceLocation(file: "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/TanTan/ContentView.swift", line: 42)
         Button {
             appState.selectedTab = tab
         } label: {
@@ -39,7 +39,7 @@ extension ContentView {
                 HomeScreen()
                     .environmentObject(appState)
             case .live:
-                Text(__designTimeString("#5428.[1].[1].property.[0].[0].arg[0].value.[0].[1].[0].arg[0].value", fallback: "Live"))
+                LiveScreen()
             case .message:
                 MessageListScreen()
                     .environmentObject(appState)
@@ -56,7 +56,6 @@ extension ContentView {
                     createTabItem(tab: .profile, title: __designTimeString("#5428.[1].[1].property.[0].[0].arg[0].value.[1].[0].[1].arg[0].value.[3].arg[1].value", fallback: "Profile"))
                 }
             }
-            
         }
     
 #sourceLocation()
