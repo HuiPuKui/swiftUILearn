@@ -15,11 +15,11 @@ extension CircleAvator {
             .resizable()
             .aspectRatio(contentMode: .fill)
             .frame(width: size, height: size)
-            .cornerRadius(__designTimeInteger("#108640.[1].[2].property.[0].[0].modifier[3].arg[0].value", fallback: 50))
+            .cornerRadius(__designTimeInteger("#41070.[1].[2].property.[0].[0].modifier[3].arg[0].value", fallback: 50))
             .overlay(
-                Circle().stroke(.white, lineWidth: __designTimeInteger("#108640.[1].[2].property.[0].[0].modifier[4].arg[0].value.modifier[0].arg[1].value", fallback: 5))
+                Circle().stroke(.white, lineWidth: __designTimeInteger("#41070.[1].[2].property.[0].[0].modifier[4].arg[0].value.modifier[0].arg[1].value", fallback: 5))
             )
-            .shadow(radius: __designTimeInteger("#108640.[1].[2].property.[0].[0].modifier[5].arg[0].value", fallback: 1))
+            .shadow(radius: __designTimeInteger("#41070.[1].[2].property.[0].[0].modifier[5].arg[0].value", fallback: 1))
     
 #sourceLocation()
     }

@@ -1,5 +1,12 @@
 {
   "source": "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/TanTan/Core/Profile/ProfileScreen.swift",
-  "tables": {},
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Photo Tip: Make waves with a beach photo and get more likes"
+      }
+    ]
+  },
   "version": 1
 }

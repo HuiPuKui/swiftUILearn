@@ -6,26 +6,30 @@
 //
 
 import SwiftUI
+import PhotosUI
 
 struct ProfileScreen: View {
+    @StateObject var vm: ProfileViewModel = ProfileViewModel()
     var user: User
     var body: some View {
         VStack(spacing: 0) {
             ZStack(alignment: .topTrailing) {
-                CircleAvator(photo: user.photo, size: 100)
-                
-                Button {
-                    
-                } label: {
+                if let uiImage = vm.selectedImage {
+                    ImageFromLocal(uiImage: uiImage)
+                } else {
+                    ImageFromLocal(uiImage: UIImage(named: user.photo) ?? UIImage())
+                }
+
+                PhotosPicker(selection: $vm.imageSelection, matching: .images) {
                     Image(systemName: "pencil")
                         .font(.system(size: 18, weight: .heavy))
                         .foregroundColor(.gray.opacity(0.5))
                         .frame(width: 32, height: 32)
                         .background(.white)
                         .clipShape(Circle())
+                        .padding(.vertical, 10)
+                        .offset(x: 10, y: -10)
                 }
-                .padding(.vertical, 10)
-                .offset(x: 10, y: -10)
             }
             .padding()
             
@@ -92,6 +96,21 @@ struct ProfileScreen: View {
                     .font(.system(size: 14, weight: .medium))
                     .foregroundColor(.gray.opacity(0.6))
             }
+        }
+    }
+    
+    struct ImageFromLocal: View {
+        var uiImage: UIImage
+        var body: some View {
+            Image(uiImage: uiImage)
+                .resizable()
+                .aspectRatio(contentMode: .fill)
+                .frame(width: 100, height: 100)
+                .cornerRadius(50)
+                .overlay(
+                    Circle().stroke(.white, lineWidth: 5)
+                )
+                .shadow(radius: 1)
         }
     }
 }
