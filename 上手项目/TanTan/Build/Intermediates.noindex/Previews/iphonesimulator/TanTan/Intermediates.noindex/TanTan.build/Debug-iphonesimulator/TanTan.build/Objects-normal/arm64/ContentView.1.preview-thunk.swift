@@ -10,19 +10,19 @@ import SwiftUI
 
 extension ContentView {
     @_dynamicReplacement(for: createTabItem(tab:title:)) private func __preview__createTabItem(tab: TabItem, title: String) -> some View {
-        #sourceLocation(file: "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/TanTan/ContentView.swift", line: 42)
+        #sourceLocation(file: "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/TanTan/ContentView.swift", line: 43)
         Button {
             appState.selectedTab = tab
         } label: {
             VStack {
                 Image(systemName: tab.rawValue)
-                    .font(.system(size: __designTimeInteger("#5157.[1].[2].[0].arg[1].value.[0].arg[0].value.[0].modifier[0].arg[0].value.arg[0].value", fallback: 24), weight: .bold))
-                    .foregroundColor(appState.selectedTab == tab ? .accentColor : .gray.opacity(__designTimeFloat("#5157.[1].[2].[0].arg[1].value.[0].arg[0].value.[0].modifier[1].arg[0].value.else.modifier[0].arg[0].value", fallback: 0.5)))
+                    .font(.system(size: __designTimeInteger("#5428.[1].[2].[0].arg[1].value.[0].arg[0].value.[0].modifier[0].arg[0].value.arg[0].value", fallback: 24), weight: .bold))
+                    .foregroundColor(appState.selectedTab == tab ? .accentColor : .gray.opacity(__designTimeFloat("#5428.[1].[2].[0].arg[1].value.[0].arg[0].value.[0].modifier[1].arg[0].value.else.modifier[0].arg[0].value", fallback: 0.5)))
                     .frame(maxWidth: .infinity)
                 
                 Text(title)
-                    .font(.system(size: __designTimeInteger("#5157.[1].[2].[0].arg[1].value.[0].arg[0].value.[1].modifier[0].arg[0].value.arg[0].value", fallback: 10)))
-                    .foregroundColor(appState.selectedTab == tab ? .accentColor : .gray.opacity(__designTimeFloat("#5157.[1].[2].[0].arg[1].value.[0].arg[0].value.[1].modifier[1].arg[0].value.else.modifier[0].arg[0].value", fallback: 0.5)))
+                    .font(.system(size: __designTimeInteger("#5428.[1].[2].[0].arg[1].value.[0].arg[0].value.[1].modifier[0].arg[0].value.arg[0].value", fallback: 10)))
+                    .foregroundColor(appState.selectedTab == tab ? .accentColor : .gray.opacity(__designTimeFloat("#5428.[1].[2].[0].arg[1].value.[0].arg[0].value.[1].modifier[1].arg[0].value.else.modifier[0].arg[0].value", fallback: 0.5)))
             }
         }
     
@@ -39,20 +39,21 @@ extension ContentView {
                 HomeScreen()
                     .environmentObject(appState)
             case .live:
-                Text(__designTimeString("#5157.[1].[1].property.[0].[0].arg[0].value.[0].[1].[0].arg[0].value", fallback: "Live"))
+                Text(__designTimeString("#5428.[1].[1].property.[0].[0].arg[0].value.[0].[1].[0].arg[0].value", fallback: "Live"))
             case .message:
-                Text(__designTimeString("#5157.[1].[1].property.[0].[0].arg[0].value.[0].[2].[0].arg[0].value", fallback: "Message"))
+                MessageListScreen()
+                    .environmentObject(appState)
             case .profile:
-                Text(__designTimeString("#5157.[1].[1].property.[0].[0].arg[0].value.[0].[3].[0].arg[0].value", fallback: "Profile"))
+                Text(__designTimeString("#5428.[1].[1].property.[0].[0].arg[0].value.[0].[3].[0].arg[0].value", fallback: "Profile"))
             }
             
-            if !appState.isFullScreen {
+            if !appState.isTabBarHidden {
                 Spacer()
                 HStack {
-                    createTabItem(tab: .home, title: __designTimeString("#5157.[1].[1].property.[0].[0].arg[0].value.[1].[0].[1].arg[0].value.[0].arg[1].value", fallback: "Home"))
-                    createTabItem(tab: .live, title: __designTimeString("#5157.[1].[1].property.[0].[0].arg[0].value.[1].[0].[1].arg[0].value.[1].arg[1].value", fallback: "Live"))
-                    createTabItem(tab: .message, title: __designTimeString("#5157.[1].[1].property.[0].[0].arg[0].value.[1].[0].[1].arg[0].value.[2].arg[1].value", fallback: "Message"))
-                    createTabItem(tab: .profile, title: __designTimeString("#5157.[1].[1].property.[0].[0].arg[0].value.[1].[0].[1].arg[0].value.[3].arg[1].value", fallback: "Profile"))
+                    createTabItem(tab: .home, title: __designTimeString("#5428.[1].[1].property.[0].[0].arg[0].value.[1].[0].[1].arg[0].value.[0].arg[1].value", fallback: "Home"))
+                    createTabItem(tab: .live, title: __designTimeString("#5428.[1].[1].property.[0].[0].arg[0].value.[1].[0].[1].arg[0].value.[1].arg[1].value", fallback: "Live"))
+                    createTabItem(tab: .message, title: __designTimeString("#5428.[1].[1].property.[0].[0].arg[0].value.[1].[0].[1].arg[0].value.[2].arg[1].value", fallback: "Message"))
+                    createTabItem(tab: .profile, title: __designTimeString("#5428.[1].[1].property.[0].[0].arg[0].value.[1].[0].[1].arg[0].value.[3].arg[1].value", fallback: "Profile"))
                 }
             }
             

@@ -47,7 +47,7 @@ struct ColorButton: ViewModifier {
     @EnvironmentObject var appState: AppState
     var type: ButtonType
     func body(content: Content) -> some View {
-        let isFullScreen = appState.isFullScreen
+        let isTabBarHidden = appState.isTabBarHidden
         switch type {
         case .back:
             content
@@ -57,16 +57,16 @@ struct ColorButton: ViewModifier {
             content
                 .foregroundColor(.white)
                 .padding(.horizontal, 30)
-                .background(isFullScreen ? .yellow : .black.opacity(0.4))
+                .background(isTabBarHidden ? .yellow : .black.opacity(0.4))
         case .heart:
             content
-                .foregroundColor(isFullScreen ? .white : .red)
+                .foregroundColor(isTabBarHidden ? .white : .red)
                 .padding(.horizontal, 30)
-                .background(isFullScreen ? .pink : .black.opacity(0.4))
+                .background(isTabBarHidden ? .pink : .black.opacity(0.4))
         case .star:
             content
-                .foregroundColor(isFullScreen ? .white : .blue)
-                .background(isFullScreen ? .blue : .black.opacity(0.4))
+                .foregroundColor(isTabBarHidden ? .white : .blue)
+                .background(isTabBarHidden ? .blue : .black.opacity(0.4))
         }
     }
 }
@@ -79,5 +79,5 @@ struct ColorButton: ViewModifier {
         }
     }
     .background(Color.accentColor)
-    .environmentObject(AppState(isFullScreen: true))
+    .environmentObject(AppState(isTabBarHidden: true))
 }

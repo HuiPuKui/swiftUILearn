@@ -14,7 +14,7 @@ struct CardContainerView: View {
     @Namespace var namespace
     var card: UserCard
     var body: some View {
-        if appState.isFullScreen {
+        if appState.isTabBarHidden {
             CardDetailView(namespace: namespace, card: card)
                 .background(.white)
                 .environmentObject(appState)

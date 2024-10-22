@@ -38,7 +38,7 @@ struct CardDetailView: View {
                         .padding([.horizontal, .top], 20)
                         
                         Button {
-                            appState.isFullScreen = false
+                            appState.isTabBarHidden = false
                         } label: {
                             Image(systemName: "arrow.up.circle.fill")
                                 .font(.system(size: 40))
@@ -109,6 +109,6 @@ struct CardDetailView_Previews: PreviewProvider {
     @Namespace static var namespace: Namespace.ID
     static var previews: some View {
         CardDetailView(namespace: namespace, card: .init(name: "Jame", age: 23, place: "New Youk", zodiac: "Cancer", photos: ["User1"]))
-            .environmentObject(AppState(isFullScreen: true))
+            .environmentObject(AppState(isTabBarHidden: true))
     }
 }

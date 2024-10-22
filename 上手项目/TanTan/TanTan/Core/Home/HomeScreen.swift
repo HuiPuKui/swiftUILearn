@@ -14,7 +14,7 @@ struct HomeScreen: View {
     
     var body: some View {
         VStack(spacing: 0) {
-            if !appState.isFullScreen {
+            if !appState.isTabBarHidden {
                 HStack {
                     HomeTitleButton(selectedTitle: $viewModel.selectedTitle, title: .TANTAN)
                     HomeTitleButton(selectedTitle: $viewModel.selectedTitle, title: .PICKS)

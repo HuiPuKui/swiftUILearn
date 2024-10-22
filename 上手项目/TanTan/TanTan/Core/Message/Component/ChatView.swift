@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ChatView: View {
+    @EnvironmentObject var appState: AppState
     @ObservedObject var chatManager: ChatManager
     @State var typingMessage: String = ""
     @State var scrollProxy: ScrollViewProxy? = nil
@@ -25,7 +26,7 @@ struct ChatView: View {
                         VStack {
                             ForEach(chatManager.messages, id: \.id) { message in
                                 MessageView(message: message)
-                                    .animation(.easeIn)
+                                    .animation(.easeIn, value: chatManager.messages.count)
                                     .transition(.move(edge: .trailing))
                                     .id(message.id)
                             }
@@ -73,6 +74,12 @@ struct ChatView: View {
         .onChange(of: chatManager.messages.count, perform: { newValue in 
             scrollToBottom()
         })
+        .onAppear {
+            appState.isTabBarHidden = true
+        }
+        .onDisappear {
+            appState.isTabBarHidden = false
+        }
         .navigationTitle("")
         .navigationBarHidden(true)
     }
@@ -91,4 +98,5 @@ struct ChatView: View {
 
 #Preview {
     ChatView(user: User.Others)
+        .environmentObject(AppState())
 }

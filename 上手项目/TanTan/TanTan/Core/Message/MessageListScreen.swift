@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct MessageListScreen: View {
-    
+    @EnvironmentObject var appState: AppState
     @StateObject var viewModel = MessageListViewModel()
     @State var searchText: String = ""
     @State var isEditing: Bool = false
@@ -44,6 +44,7 @@ struct MessageListScreen: View {
                             withAnimation(.easeIn(duration: 0.25)) {
                                 isEditing = true
                             }
+                            appState.isTabBarHidden = true
                         }
                     
                     if isEditing {
@@ -51,7 +52,7 @@ struct MessageListScreen: View {
                             withAnimation(.easeIn(duration: 0.25)) {
                                 isEditing = false
                             }
-                            
+                            appState.isTabBarHidden = false
                             searchText = ""
                             endEditing(true)
                         } label: {
@@ -64,13 +65,13 @@ struct MessageListScreen: View {
                 
                 VStack {
                     ForEach(viewModel.messagePreviews.filter { searchText.isEmpty ? true : displayPreview($0) }, id: \.self) { preview in
-                        NavigationLink(destination: ChatView(user: preview.user)) {
+                        NavigationLink(destination: ChatView(user: preview.user).environmentObject(appState)) {
                             MessageListRowView(messagePreview: preview)
                                 .padding(.horizontal, 10)
                                 .padding(.vertical, 5)
                         }
                         .buttonStyle(PlainButtonStyle())
-                        .animation(.easeIn(duration: 0.25))
+                        .animation(.easeIn(duration: 0.25), value: viewModel.messagePreviews.count)
                         .transition(.slide)
                     }
                 }
@@ -91,4 +92,5 @@ struct MessageListScreen: View {
 
 #Preview {
     MessageListScreen()
+        .environmentObject(AppState())
 }

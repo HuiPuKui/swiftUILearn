@@ -23,7 +23,7 @@ struct UserCardView: View {
                     .resizable()
                     .frame(width: frameWidth, height: frameHeight)
                     .aspectRatio(contentMode: .fit)
-                    .cornerRadius(appState.isFullScreen ? 0 : 20)
+                    .cornerRadius(appState.isTabBarHidden ? 0 : 20)
                 
                 HStack {
                     Rectangle()
@@ -47,7 +47,7 @@ struct UserCardView: View {
                 .padding(.top, 10)
                 .padding(.horizontal)
                 
-                if !appState.isFullScreen {
+                if !appState.isTabBarHidden {
                     VStack {
                         HStack {
                             if offset.width > 0 {
@@ -73,7 +73,7 @@ struct UserCardView: View {
             .gesture(
                 DragGesture()
                     .onChanged { value in
-                        if !appState.isFullScreen {
+                        if !appState.isTabBarHidden {
                             withAnimation(.easeOut(duration: 0.2)) {
                                 self.offset = value.translation
                             }
@@ -81,7 +81,7 @@ struct UserCardView: View {
                         
                     }
                     .onEnded { value in
-                        if !appState.isFullScreen {
+                        if !appState.isTabBarHidden {
                             withAnimation(.easeOut(duration: 0.2)) {
                                 let screenCutoff = frameWidth / 2 * 0.8
                                 let translation = value.translation.width
@@ -153,7 +153,7 @@ struct UserCardView: View {
             Spacer()
             
             Button(action: {
-                appState.isFullScreen = true
+                appState.isTabBarHidden = true
             }, label: {
                 Image(systemName: "info.circle.fill")
                     .font(.system(size: 30))
