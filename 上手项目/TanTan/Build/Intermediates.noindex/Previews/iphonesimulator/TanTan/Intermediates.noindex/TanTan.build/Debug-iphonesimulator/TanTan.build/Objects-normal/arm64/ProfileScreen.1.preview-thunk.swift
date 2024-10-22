@@ -12,7 +12,7 @@ extension ProfileScreen.CustomButton {
 typealias CustomButton = ProfileScreen.CustomButton
 
     @_dynamicReplacement(for: body) private var __preview__body: some View {
-        #sourceLocation(file: "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/TanTan/Core/Profile/ProfileScreen.swift", line: 77)
+        #sourceLocation(file: "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/上手项目/TanTan/TanTan/Core/Profile/ProfileScreen.swift", line: 78)
             VStack(spacing: __designTimeInteger("#11652.[1].[2].[3].property.[0].[0].arg[0].value", fallback: 10)) {
                 Button {
                     
@@ -77,6 +77,7 @@ extension ProfileScreen {
                     .lineLimit(__designTimeInteger("#11652.[1].[1].property.[0].[0].arg[1].value.[3].arg[0].value.[0].modifier[1].arg[0].value", fallback: 3))
                     .foregroundColor(.white)
                     .font(.system(size: __designTimeInteger("#11652.[1].[1].property.[0].[0].arg[1].value.[3].arg[0].value.[0].modifier[3].arg[0].value.arg[0].value", fallback: 14)))
+                
                 Button {
                     
                 } label: {

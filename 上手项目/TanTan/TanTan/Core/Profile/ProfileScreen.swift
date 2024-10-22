@@ -49,6 +49,7 @@ struct ProfileScreen: View {
                     .lineLimit(3)
                     .foregroundColor(.white)
                     .font(.system(size: 14))
+                
                 Button {
                     
                 } label: {

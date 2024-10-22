@@ -1,0 +1,16 @@
+{
+  "source": "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/PhotosPickerDemo/PhotosPickerDemo/ContentView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Pick Image"
+      },
+      {
+        "comment": "",
+        "key": "Open the photo library"
+      }
+    ]
+  },
+  "version": 1
+}

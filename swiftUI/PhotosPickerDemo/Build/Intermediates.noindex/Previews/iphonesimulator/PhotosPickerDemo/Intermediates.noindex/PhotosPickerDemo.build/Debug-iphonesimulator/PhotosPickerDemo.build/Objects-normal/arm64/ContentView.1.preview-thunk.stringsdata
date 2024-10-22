@@ -1,0 +1,16 @@
+{
+  "source": "/Users/huipukui/Desktop/All/iOSLearn/swiftUILearn/swiftUI/PhotosPickerDemo/Build/Intermediates.noindex/Previews/iphonesimulator/PhotosPickerDemo/Intermediates.noindex/PhotosPickerDemo.build/Debug-iphonesimulator/PhotosPickerDemo.build/Objects-normal/arm64/ContentView.1.preview-thunk.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Pick Image"
+      },
+      {
+        "comment": "",
+        "key": "Open the photo library"
+      }
+    ]
+  },
+  "version": 1
+}
